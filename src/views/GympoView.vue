@@ -73,9 +73,9 @@
             </div>
 
             <div class="btns">
-                <router-link to="/mammoth-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</router-link>
+                <a to="/mammoth-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
                 <p>1/6</p>
-                <router-link to="/dashboard-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></router-link>
+                <a to="/dashboard-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
 
