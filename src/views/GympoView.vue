@@ -74,7 +74,7 @@
 
             <div class="btns">
                 <a href="/mammoth-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
-                <p>1/6</p>
+                <p>1/5</p>
                 <a href="/dashboard-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>

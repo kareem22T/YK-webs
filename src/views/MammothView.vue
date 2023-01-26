@@ -69,7 +69,7 @@
 
             <div class="btns">
                 <a href="/pharoto-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
-                <p>5/6</p>
+                <p>5/5</p>
                 <a href="/gympo-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
