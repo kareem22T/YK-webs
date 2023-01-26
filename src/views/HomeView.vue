@@ -182,19 +182,19 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
+                  <img src="../assets/img/our-work/pharoto.gif" alt="">
+                </div>
+                <h1>Pharoto</h1>
+                <p>{{ home_data.home.latest.pharoto }}</p>
+                <a href="/pharoto-view">{{ home_data.home.latest.btn }}</a>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
                   <img src="../assets/img/our-work/mammoth.gif" alt="">
                 </div>
                 <h1>Mammoth</h1>
                 <p>{{ home_data.home.latest.mammoth }}</p>
                 <a href="/mammoth-view" >{{ home_data.home.latest.btn }}</a>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="img">
-                  <img src="../assets/img/our-work/pharoto.gif" alt="">
-                </div>
-                <h1>Pharoto</h1>
-                <p>{{ home_data.home.latest.pharoto }}</p>
-                <a href="/pharoto-view" >{{ home_data.home.latest.btn }}</a>
               </swiper-slide>
           </swiper>
       </div>

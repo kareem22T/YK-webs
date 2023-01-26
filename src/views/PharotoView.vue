@@ -104,9 +104,9 @@
                 </div>
             </div>
             <div class="btns">
-                <router-link to="/"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</router-link>
-                <p>6/6</p>
-                <router-link to="/">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></router-link>
+                <router-link to="/off-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</router-link>
+                <p>4/6</p>
+                <router-link to="/mammoth-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></router-link>
             </div>
         </div>
 
