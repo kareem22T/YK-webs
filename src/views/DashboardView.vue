@@ -30,7 +30,7 @@
                 <h3 class="sub-title">{{ home_data.home.dashboard_view.title }}</h3>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/r9N-Oz-0xGk?autoplay=1&mute=1" title="YouTube video player"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aCnr200pSAQ?autoplay=1&mute=1" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
@@ -40,7 +40,7 @@
                 </ul>
             </div>
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/r9N-Oz-0xGk?autoplay=1&mute=1" title="YouTube video player"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4kbR6n-IwU8?autoplay=1&mute=1" title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
