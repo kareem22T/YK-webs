@@ -903,6 +903,7 @@ body {
                             font-weight: 700;
                             line-height: clamp(1.4375rem, calc(-0.5313rem + 4.5vw), 3.125rem);
                             text-align: center;
+                            white-space: nowrap;
                         }
                         h3 {
                             font-size: clamp(0.9375rem, calc(-0.5208rem + 3.3333vw), 2.1875rem);
@@ -925,6 +926,9 @@ body {
                 }
 
                 .kimo {
+                    .text {
+                        margin: 15px;
+                    }
                     .profile {
                         bottom: 0;
                         right: -10px;
@@ -1857,4 +1861,16 @@ body {
 
 .gympo-view >.container .btns a {
     color: #000000 !important;
+}
+
+.ar .site-details>.container .slide .text p {
+    line-height: calc(clamp(1.4375rem, calc(0.2rem + 3.6vw), 3.125rem) + 4.3px);
+}
+
+.ar .site-details>.container .mobile-slide>h1 {
+    line-height: calc(clamp(3.125rem, calc(-0.0833rem + 9.3333vw), 7.5rem) + 4.3px);
+}
+
+.ar .site-details>.container .btns a {
+    line-height: 30px;
 }

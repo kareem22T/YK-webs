@@ -26,7 +26,7 @@
         <div class="container">
             <div class="head">
                 <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>PHAROTO</h1>
-                <h3 class="sub-title">PHAROTO Tourism Company inside Egypt</h3>
+                <h3 class="sub-title">{{ home_data.home.pharoto_view.title }}</h3>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/pharoto/1.png" alt=""></div>
@@ -37,66 +37,66 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <p>loading page to open site smoothly</p>
-                    <p>A quick and clear explanation of the site that will be displayed</p>
+                    <p>{{ home_data.home.pharoto_view.slide1_p1 }}</p>
+                    <p>{{ home_data.home.pharoto_view.slide1_p2 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>best Interactive hero section to show what you present in a simple way</p>
+                    <p>{{ home_data.home.pharoto_view.slide2_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/pharoto/2.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/pharoto/3.png" alt=""></div>
                 <div class="text">
-                    <p>No matter how many details you want to add, we will display them in the best organized form according to priority</p>
+                    <p>{{ home_data.home.pharoto_view.slide3_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>Provide all options to the customer to deal faster</p>
+                    <p>{{ home_data.home.pharoto_view.slide4_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/pharoto/4.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/pharoto/5.png" alt=""></div>
                 <div class="text">
-                    <p>Present all your offers in the best marketing way to impress the customer</p>
+                    <p>{{ home_data.home.pharoto_view.slide5_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>Display pictures, details, and options as you like. In all cases, we will impress the customer</p>
+                    <p>{{ home_data.home.pharoto_view.slide6_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/pharoto/6.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/pharoto/7.png" alt=""></div>
                 <div class="text">
-                    <p>We will make it easier for the customer to review all that he has chosen to make it easier for you to review orders</p>
+                    <p>{{ home_data.home.pharoto_view.slide7_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>We will make it easier for the customer to review all that he has chosen to make it easier for you to review orders</p>
+                    <p>{{ home_data.home.pharoto_view.slide8_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/pharoto/8.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/pharoto/9.png" alt=""></div>
                 <div class="text">
-                    <p>If you want, we will provide you with customer service to receive complaints from your customers to ensure their loyalty</p>
+                    <p>{{ home_data.home.pharoto_view.slide9_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>Your customers will not lose their data by creating a Google or Facebook account</p>
+                    <p>{{ home_data.home.pharoto_view.slide10_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/pharoto/10.png" alt=""></div>
             </div>
             <div class="mobile-slide">
-                <h1>Responsive to all screens</h1>
+                <h1>{{ home_data.home.pharoto_view.responsive_title }}</h1>
                 <div class="imgs">
                     <img src="../assets/img/pharoto/13.png" alt="">
                     <img src="../assets/img/pharoto/11.png" alt="">
@@ -104,9 +104,9 @@
                 </div>
             </div>
             <div class="btns">
-                <router-link to="/"><i class='bx bxs-chevrons-left'></i> Previous</router-link>
+                <router-link to="/"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</router-link>
                 <p>6/6</p>
-                <router-link to="/">Next <i class='bx bxs-chevrons-right'></i></router-link>
+                <router-link to="/">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></router-link>
             </div>
         </div>
 
@@ -114,7 +114,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 global.jQuery = require('jquery');
 var $ = global.jQuery;
 window.$ = $;
@@ -171,20 +170,24 @@ export default {
             // document.cookie = "theme=; max-age=" + -60 * 60 * 24 * 30;
             // document.cookie = "lang=; max-age=" + -60 * 60 * 24 * 30;
         }, getHomeData() {
-            var formData = new FormData();
-            formData.append('api_password', 'yk-mango@perfct.all');
-            formData.append('lang', this.lang);
+            // var formData = new FormData();
+            // formData.append('api_password', 'yk-mango@perfct.all');
+            // formData.append('lang', this.lang);
 
-            axios.post('http://localhost:8080/api/get-home-data', formData, {
-                headers: {
-                }
-            }).then((res) => (
-                this.home_data = res.data
-            )).catch(err => {
-                console.log(err.response);
-            });
-            $('section, footer').css('opacity', '0')
-            setTimeout(function () { $('section, footer').css('opacity', '1') }, 500);
+            // axios.post('http://localhost:8080/api/get-home-data', formData, {
+            //     headers: {
+            //     }
+            // }).then((res) => (
+            //     this.home_data = res.data
+            // )).catch(err => {
+            //     console.log(err.response);
+            // });
+
+            let data = require('../assets/api/get-data.json');
+            this.home_data = this.lang == 'ar' ? data.ar : data.en
+
+            $('section, footer, .slide, .head').css('opacity', '0')
+            setTimeout(function () { $('section, footer, .slide, .head').css('opacity', '1') }, 500);
         }, setLangThemeCookies() {
             let themeCheck = document.cookie.indexOf('theme')
             let langCheck = document.cookie.indexOf('lang')

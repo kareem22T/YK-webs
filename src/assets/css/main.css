@@ -943,6 +943,7 @@ body footer .container .yk .joo .text h1, body footer .container .yk .kimo .text
   font-weight: 700;
   line-height: clamp(1.4375rem, calc(-0.5313rem + 4.5vw), 3.125rem);
   text-align: center;
+  white-space: nowrap;
 }
 body footer .container .yk .joo .text h3, body footer .container .yk .kimo .text h3 {
   font-size: clamp(0.9375rem, calc(-0.5208rem + 3.3333vw), 2.1875rem);
@@ -955,6 +956,9 @@ body footer .container .yk .joo .profile {
   left: -10px;
 }
 body footer .container .yk .joo .text {
+  margin: 15px;
+}
+body footer .container .yk .kimo .text {
   margin: 15px;
 }
 body footer .container .yk .kimo .profile {
@@ -1753,6 +1757,18 @@ body footer .links .img ul a:last-child {
 
 .gympo-view > .container .btns a {
   color: #000000 !important;
+}
+
+.ar .site-details > .container .slide .text p {
+  line-height: calc(clamp(1.4375rem, calc(0.2rem + 3.6vw), 3.125rem) + 4.3px);
+}
+
+.ar .site-details > .container .mobile-slide > h1 {
+  line-height: calc(clamp(3.125rem, calc(-0.0833rem + 9.3333vw), 7.5rem) + 4.3px);
+}
+
+.ar .site-details > .container .btns a {
+  line-height: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -44,7 +44,7 @@
             "footer": {
             "kareem_name": "كريم محمد",
             "youssef_name": "يوسف فؤاد",
-            "kareem_title": "مطور ويب",
+            "kareem_title": "مهندس برمجيات",
             "youssef_title": "مصمم واجهة المستخدم",
             "title": "نحن في انتظارك لتحقيق حلمك",
             "sub_title": "هذا هو كل شئ!"
@@ -53,7 +53,27 @@
             "title": "نحن نستخدم ملفات تعريف الارتباط",
             "content": "هذا الموقع يستخدم ملفات تعريف الارتباط لضمان لك احسن تجربة",
             "btn": "قبول ملفات تعريف الارتباط"
+            },
+            "web_view_btns": {
+                "next": "التالي",
+                "prev": "السابق"
+            },
+            "pharoto_view": {
+                "title": "شركة فاروتو للسياحة داخل مصر",
+                "responsive_title": "تستجيب لجميع الشاشات",
+                "slide1_p1": "صفحة التحميل لفتح الموقع بسلاسة",
+                "slide1_p2": "شرح سريع وواضح للموقع الذي سيتم عرضه",
+                "slide2_p1": "أفضل قسم تفاعلي تعريفي بالموقع التفاعلي لإظهار ما تقدمه بطريقة بسيطة",
+                "slide3_p1": "بغض النظر عن عدد التفاصيل التي تريد إضافتها ، سنعرضها في أفضل شكل منظم وفقًا للأولوية",
+                "slide4_p1": "توفير جميع الخيارات للعميل للتعامل بشكل أسرع",
+                "slide5_p1": "قدم جميع عروضك بأفضل طريقة تسويقية لإقناع العميل",
+                "slide6_p1": "اعرض الصور والتفاصيل والخيارات كما تريد. في جميع الحالات ، سوف نبهر العميل",
+                "slide7_p1": "سنجعل من السهل على العميل مراجعة كل ما اختاره لتسهيل مراجعة الطلبات لك",
+                "slide8_p1": "سوف تتلقى جميع البيانات التي قد تحتاجها ، وسيقوم العميل بتعبئتها بإعجاب لتصميم موقعك",
+                "slide9_p1": "إذا أردت ، سنقدم لك تواصل خدمة العملاء لتلقي الشكاوى من عملائك لضمان ولائهم",
+                "slide10_p1": "لن يفقد عملاؤك بياناتهم عن طريق إنشاء حساب باستخدام Google/Facebook"
             }
+
         }
     },
 
@@ -102,7 +122,7 @@
             "footer": {
                 "kareem_name": "Kareem Mohamed",
                 "youssef_name": "Youssef Fouad",
-                "kareem_title": "web developer",
+                "kareem_title": "software engineer",
                 "youssef_title": "Ux/Ui designer",
                 "title": "We are waiting for you to fulfill your dream",
                 "sub_title": "that is all!"
@@ -111,7 +131,27 @@
                 "title": "We use cookies",
                 "content": "This site use cookies to ensure you have the best experince",
                 "btn": "Accept cookies"
+            },
+            "web_view_btns": {
+                "next": "Next",
+                "prev": "Previous"
+            },
+            "pharoto_view": {
+                "title": "Pharoto Tourism Company inside Egypt",
+                "responsive_title": "Responsive to all screens",
+                "slide1_p1": "loading page to open site smoothly",
+                "slide1_p2": "A quick and clear explanation of the site that will be displayed",
+                "slide2_p1": "best Interactive hero section to show what you present in a simple way",
+                "slide3_p1": "No matter how many details you want to add, we will display them in the best organized form according to priority",
+                "slide4_p1": "Provide all options to the customer to deal faster",
+                "slide5_p1": "Present all your offers in the best marketing way to impress the customer",
+                "slide6_p1": "Display pictures, details, and options as you like. In all cases, we will impress the customer",
+                "slide7_p1": "We will make it easier for the customer to review all that he has chosen to make it easier for you to review orders",
+                "slide8_p1": "You will receive all the data that you may need, and the customer will fill it in with admiration for your site design",
+                "slide9_p1": "If you want, we will provide you with customer service to receive complaints from your customers to ensure their loyalty",
+                "slide10_p1": "Your customers will not lose their data by creating an account by Google/Facebook"
             }
+
         }
     }
 
