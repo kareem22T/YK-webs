@@ -10,19 +10,20 @@
             "latest_btn": "اعمالنا"
             },
             "looking_for": {
-            "title": "عما تبحث؟",
-            "card_1": "إنطلاقة حقيقية عبر الإنترنت لمشروعك الجديد",
-            "card_2": "انشر منتجاتك أو خدماتك على الإنترنت",
-            "card_3": "تنفيذ رائع لأفكارك",
-            "card_4": "اعادة احياء مشروعك القديم"
+                "title": "عما تبحث؟",
+                "card_1": "إنطلاقة حقيقية عبر الإنترنت لمشروعك الجديد",
+                "card_2": "انشر منتجاتك أو خدماتك على الإنترنت",
+                "card_3": "تنفيذ رائع لأفكارك",
+                "card_4": "اعادة احياء مشروعك القديم"
             },
             "latest": {
-            "title": "أحدث أعمالنا",
-            "btn": "عرض",
-            "gympo": "صالة رياضية",
-            "off": "موقع عروض",
-            "mammoth": "موضة الرجال",
-            "pharoto": "شركة سياحة"
+                "title": "أحدث أعمالنا",
+                "btn": "عرض",
+                "gympo": "صالة رياضية",
+                "off": "موقع عروض",
+                "mammoth": "موضة الرجال",
+                "pharoto": "شركة سياحة",
+                "dashboard": "لوحة تحكم"
             },
             "why_us": {
             "title": "لماذا قد تختارنا نحن؟",
@@ -42,17 +43,17 @@
             "sub_title": "أخبرنا بتخيلك وسوف نبهرك بتنفيذنا"
             },
             "footer": {
-            "kareem_name": "كريم محمد",
-            "youssef_name": "يوسف فؤاد",
-            "kareem_title": "مهندس برمجيات",
-            "youssef_title": "مصمم واجهة المستخدم",
-            "title": "نحن في انتظارك لتحقيق حلمك",
-            "sub_title": "هذا هو كل شئ!"
+                "kareem_name": "كريم محمد",
+                "youssef_name": "يوسف فؤاد",
+                "kareem_title": "مهندس برمجيات",
+                "youssef_title": "مصمم واجهة المستخدم",
+                "title": "نحن في انتظارك لتحقيق حلمك",
+                "sub_title": "هذا هو كل شئ!"
             },
             "cookies": {
-            "title": "نحن نستخدم ملفات تعريف الارتباط",
-            "content": "هذا الموقع يستخدم ملفات تعريف الارتباط لضمان لك احسن تجربة",
-            "btn": "قبول ملفات تعريف الارتباط"
+                "title": "نحن نستخدم ملفات تعريف الارتباط",
+                "content": "هذا الموقع يستخدم ملفات تعريف الارتباط لضمان لك احسن تجربة",
+                "btn": "قبول ملفات تعريف الارتباط"
             },
             "web_view_btns": {
                 "next": "التالي",
@@ -81,7 +82,43 @@
                 "slide3_p1": "بغض النظر عن عدد التفاصيل التي تريد إضافتها ، سنعرضها في أفضل شكل منظم وفقًا للأولوية",
                 "slide4_p1": "توفير جميع الخيارات للعميل للتعامل بشكل أسرع",
                 "slide5_p1": "يمكنك إضافة آراء عملائك القدامى لكسب ثقة العملاء الجدد"
+            },
+            "gympo_view": {
+                "title": "موقع صالة العاب رياضية للحجز",
+                "slide1_p1": "فكرة إبداعية لقائمة مختصرة حسب كل موقع",
+                "slide1_p2": "ازرار لتشجيع العملاء على اتخاذ إجراء",
+                "slide2_p1": "نختر الصور المناسبة مع الموضوع العام",
+                "slide2_p2": "تقسيم عرض مميز",
+                "slide2_p3": "تناقض في التصميم لاظهار التفاصيل",
+                "slide3_p1": "الانتباه إلى التفاصيل الصغيرة التي قد تهم المستخدم ، مثل الحسابات",
+                "slide3_p2": "توضيح جميع ميزات الاشتراكات لتجنب الأسئلة",
+                "slide4_p1": "ربط حسابات التواصل الاجتماعي في المكان المناسب على الموقع",
+                "slide5_p1": "جمع المعلومات الأكثر فائدة من العميل لمنحه رد أسرع",
+                "slide5_p2": "تذييل مميز لكل موقع"
+            },
+            "off_view": {
+                "title": "موقع لتقديم العروض",
+                "slide1_p1": "نفكر دائمًا في تجربة عميلك لتسهيل الأمر قدر الإمكان ، ثم نقوم بإنشاء أفضل مسار للمستخدم (ux)",
+                "slide2_p1": "صفحة التحميل لفتح الموقع بسلاسة",
+                "slide2_p2": "شرح سريع وواضح للموقع الذي سيتم عرضه",
+                "slide3_p1": "نظام تسجيل الدخول للحفاظ على جميع البيانات",
+                "slide4_p1": "جمع كل البيانات التي تحتاجها من العميل لمنحه أفضل العروض",
+                "slide5_p1": "طريقة آمنة لجمع البيانات ونحرص على أن يشعر العملاء بالأمان"
+            },
+            "dashboard_view": {
+                "title": "لوحة تحكم في متجر الكتروني لموضة الرجال",
+                "video1_li1": "نظام تسجيل الدخول للمسؤولين بأذونات مختلفة",
+                "video1_li2": "تصميم القوائم وترتيبها بأسهل ما يمكن",
+                "video2_li1": "إضافة / تحرير / إزالة / تنشيط / تعطيل أي نوع من البيانات",
+                "video2_li2": "انتهيت؟ - رابط مباشر إلى المتجر لعرض التغييرات",
+                "slide1_p1": "الإحصائيات الشيقة في الصفحة الأولى ، بالإضافة إلى أزرار الأوامر السريعة القابلة للتخصيص",
+                "slide2_p1": "صفحة مخصصة لجميع الإحصائيات التي قد تحتاجها لمتابعة عمل المتجر ، مثل الطلبات الناجحة / الطلبات الفاشلة / عدد المستخدمين / زيارات الموقع",
+                "slide3_p1": "بغض النظر عن عدد التفاصيل التي تريد إضافتها ، سنعرضها في أفضل شكل منظم وفقًا للأولوية",
+                "slide4_p1": "صفحة مخصصة لجميع بيانات العملاء التي تحتاجها لتطوير عملك",
+                "slide5_p1": "يمكنك إضافة أي خدمة خارجية تساعدك على تسهيل عملك في المتجر",
+                "slide6_p1": "ربط حسابك الضريبي والعديد من الميزات الأخرى يجعلنا الاختيار الأفضل لك."
             }
+
 
         }
     },
@@ -109,7 +146,8 @@
                 "gympo": "GYM",
                 "off": "offers app",
                 "mammoth": "men fashion",
-                "pharoto": "tourism compony"
+                "pharoto": "tourism compony",
+                "dashboard": "for online store"
             },
             "why_us": {
                 "title": "why us?",
@@ -168,8 +206,42 @@
                 "slide3_p1": "No matter how many details you want to add, we will display them in the best organized form according to priority",
                 "slide4_p1": "Provide all options to the customer to deal faster",
                 "slide5_p1": "You can add the opinions of your old customers to gain the trust of new customers"
+            },
+            "gympo_view": {
+                "title": "gym site for booking",
+                "slide1_p1": "creative idea for shortcut menu according to each site",
+                "slide1_p2": "call to action buttons to encourage customers to take action",
+                "slide2_p1": "choose appropriate images with the overall theme ",
+                "slide2_p2": "distinguished and unusual display division",
+                "slide2_p3": "contrast to show description",
+                "slide3_p1": "attention to small details that may be of interest to the user, such as counting",
+                "slide3_p2": "clarify all the features of subscriptions to avoid questions",
+                "slide4_p1": "linking social media accounts in the appropriate place on the site",
+                "slide5_p1": "collect the most useful information from client to give him faster response",
+                "slide5_p2": "distinctive footer for each site"
+            },
+            "off_view": {
+                "title": "offers website",
+                "slide1_p1": "We always think how to react like your customer to make it easier as possible, then we create the best user flow (ux)",
+                "slide2_p1": "loading page to open site smoothly",
+                "slide2_p2": "A quick and clear explanation of the site that will be displayed",
+                "slide3_p1": "log in system to keep all data saved",
+                "slide4_p1": "collecting all data you need from customer to give him best offers  ",
+                "slide5_p1": "secured way to collect data and we till customers about that to feel safe "
+            },
+            "dashboard_view": {
+                "title": "dashboard for men fashion store",
+                "video1_li1": "Login system for admins with different permissions",
+                "video1_li2": "Design and arrange lists as easy as possible",
+                "video2_li1": "Add / edit / remove / activate / deactivate any type of data",
+                "video2_li2": "finished? - direct link to the store to view changes",
+                "slide1_p1": "View interesting statistics on the first page, in addition to customizable quick command buttons",
+                "slide2_p1": "A page dedicated to all the statistics that you may need to follow up on the store's work, such as successful orders / failed orders / number of users / site visits",
+                "slide3_p1": "No matter how many details you want to add, we will display them in the best organized form according to priority",
+                "slide4_p1": "A page dedicated to all the customer data you need to develop your business",
+                "slide5_p1": "You can add any external service that helps you to facilitate your work on the store",
+                "slide6_p1": "Linking your tax account and many other features make us the best choice for you"
             }
-
 
         }
     }

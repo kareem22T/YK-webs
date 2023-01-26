@@ -162,7 +162,15 @@
                 </div>
                 <h1>GYMPO</h1>
                 <p>{{ home_data.home.latest.gympo }}</p>
-                <a href="/gympo-view" target="_blank">{{ home_data.home.latest.btn }}</a>
+                <a href="/gympo-view" >{{ home_data.home.latest.btn }}</a>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/dashboard.gif" alt="">
+                </div>
+                <h1>Dashboard</h1>
+                <p>{{ home_data.home.latest.dashboard }}</p>
+                <a href="/dashboard-view" >{{ home_data.home.latest.btn }}</a>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
@@ -170,7 +178,7 @@
                 </div>
                 <h1>%FF</h1>
                 <p>{{ home_data.home.latest.off }}</p>
-                <a href="/off-view" target="_blank">{{ home_data.home.latest.btn }}</a>
+                <a href="/off-view" >{{ home_data.home.latest.btn }}</a>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
@@ -178,7 +186,7 @@
                 </div>
                 <h1>Mammoth</h1>
                 <p>{{ home_data.home.latest.mammoth }}</p>
-                <a href="/mammoth-view" target="_blank">{{ home_data.home.latest.btn }}</a>
+                <a href="/mammoth-view" >{{ home_data.home.latest.btn }}</a>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
@@ -186,7 +194,7 @@
                 </div>
                 <h1>Pharoto</h1>
                 <p>{{ home_data.home.latest.pharoto }}</p>
-                <a href="/pharoto-view" target="_blank">{{ home_data.home.latest.btn }}</a>
+                <a href="/pharoto-view" >{{ home_data.home.latest.btn }}</a>
               </swiper-slide>
           </swiper>
       </div>

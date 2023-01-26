@@ -26,8 +26,9 @@
         <div class="container">
             <div class="head">
                 <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>OFF</h1>
-                <h3 class="sub-title">offers website</h3>
-                <a class="try-link" href="https://off-five.vercel.app/" target="_blank">Try now</a>
+                <h3 class="sub-title">{{ home_data.home.off_view.title }}</h3>
+                <a class="try-link" href="https://off-five.vercel.app/" target="_blank">
+                {{ home_data.home.web_view_try }}</a>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/off/1.png" alt=""></div>
@@ -37,40 +38,40 @@
                         <span></span>
                         <span></span>
                     </div>
-                    <p>We always think how to react like your customer to make it easier as possible, then we create the best user flow (ux)</p>
+                    <p>{{ home_data.home.off_view.slide1_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>loading page to open site smoothly</p>
-                    <p>A quick and clear explanation of the site that will be displayed</p>
+                    <p>{{ home_data.home.off_view.slide2_p1 }}</p>
+                    <p>{{ home_data.home.off_view.slide2_p2 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/off/2.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/off/3.png" alt=""></div>
                 <div class="text">
-                    <p>log in system to keep all data saved</p>
+                    <p>{{ home_data.home.off_view.slide3_p1 }}</p>
                 </div>
             </div>
             <div class="slide">
                 <div class="text">
-                    <p>collecting all data you need from customer to give him best offers</p>
+                    <p>{{ home_data.home.off_view.slide4_p1 }}</p>
                 </div>
                 <div class="img"><img src="../assets/img/off/4.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/off/5.png" alt=""></div>
                 <div class="text">
-                    <p>secured way to collect data and we till customers about that to feel safe</p>
+                    <p>{{ home_data.home.off_view.slide5_p1 }}</p>
                 </div>
             </div>
-            <a class="try-link" href="https://off-five.vercel.app/" target="_blank">Try now</a>
+            <a class="try-link" href="https://off-five.vercel.app/" target="_blank">{{ home_data.home.web_view_try }}</a>
             <div class="slide last">
                 <div class="img"><img src="../assets/img/off/6.png" alt=""></div>
             </div>
             <div class="mobile-slide">
-                <h1>Responsive to all screens</h1>
+                <h1>{{ home_data.home.pharoto_view.responsive_title }}</h1>
                 <div class="imgs">
                     <img src="../assets/img/off/left.png" alt="">
                     <img src="../assets/img/off/nos.png" alt="">
@@ -78,9 +79,9 @@
                 </div>
             </div>
             <div class="btns">
-                <router-link to="/"><i class='bx bxs-chevrons-left'></i> Previous</router-link>
+                <router-link to="/"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</router-link>
                 <p>6/6</p>
-                <router-link to="/">Next <i class='bx bxs-chevrons-right'></i></router-link>
+                <router-link to="/">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></router-link>
             </div>
         </div>
 
@@ -88,7 +89,6 @@
 </template>
 
 <script>
-import axios from 'axios';
 global.jQuery = require('jquery');
 var $ = global.jQuery;
 window.$ = $;
@@ -145,20 +145,24 @@ export default {
             // document.cookie = "theme=; max-age=" + -60 * 60 * 24 * 30;
             // document.cookie = "lang=; max-age=" + -60 * 60 * 24 * 30;
         }, getHomeData() {
-            var formData = new FormData();
-            formData.append('api_password', 'yk-mango@perfct.all');
-            formData.append('lang', this.lang);
+            // var formData = new FormData();
+            // formData.append('api_password', 'yk-mango@perfct.all');
+            // formData.append('lang', this.lang);
 
-            axios.post('http://localhost:8080/api/get-home-data', formData, {
-                headers: {
-                }
-            }).then((res) => (
-                this.home_data = res.data
-            )).catch(err => {
-                console.log(err.response);
-            });
-            $('section, footer').css('opacity', '0')
-            setTimeout(function () { $('section, footer').css('opacity', '1') }, 500);
+            // axios.post('http://localhost:8080/api/get-home-data', formData, {
+            //     headers: {
+            //     }
+            // }).then((res) => (
+            //     this.home_data = res.data
+            // )).catch(err => {
+            //     console.log(err.response);
+            // });
+
+            let data = require('../assets/api/get-data.json');
+            this.home_data = this.lang == 'ar' ? data.ar : data.en
+
+            $('section, footer, .slide, .head').css('opacity', '0')
+            setTimeout(function () { $('section, footer, .slide, .head').css('opacity', '1') }, 500);
         }, setLangThemeCookies() {
             let themeCheck = document.cookie.indexOf('theme')
             let langCheck = document.cookie.indexOf('lang')

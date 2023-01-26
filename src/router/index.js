@@ -4,6 +4,7 @@ import pharotoView from '../views/PharotoView.vue'
 import offView from '../views/OffView.vue'
 import MammothView from '../views/MammothView.vue'
 import GympoView from '../views/GympoView.vue'
+import DashboardView from '../views/DashboardView.vue'
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: '/gympo-view',
     name: 'gympo',
     component: GympoView
+  },
+  {
+    path: '/dashboard-view',
+    name: 'dashboard',
+    component: DashboardView
   },
 ]
 
