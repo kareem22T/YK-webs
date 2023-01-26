@@ -1689,7 +1689,10 @@ body footer .links .img ul a:last-child {
   text-align: center;
   text-decoration: none;
   margin-top: 15px;
-  max-width: 190px;
+}
+
+.ar .try-link {
+  line-height: 50px;
 }
 
 .mammoth-view .try-link {

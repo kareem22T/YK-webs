@@ -58,6 +58,7 @@
                 "next": "التالي",
                 "prev": "السابق"
             },
+            "web_view_try": "جرب الأن",
             "pharoto_view": {
                 "title": "شركة فاروتو للسياحة داخل مصر",
                 "responsive_title": "تستجيب لجميع الشاشات",
@@ -72,6 +73,14 @@
                 "slide8_p1": "سوف تتلقى جميع البيانات التي قد تحتاجها ، وسيقوم العميل بتعبئتها بإعجاب لتصميم موقعك",
                 "slide9_p1": "إذا أردت ، سنقدم لك تواصل خدمة العملاء لتلقي الشكاوى من عملائك لضمان ولائهم",
                 "slide10_p1": "لن يفقد عملاؤك بياناتهم عن طريق إنشاء حساب باستخدام Google/Facebook"
+            },
+            "mammoth_view": {
+                "title": "متجر أزياء الرجال",
+                "slide1_p1": "أفضل قسم تفاعلي تعريفي بالموقع لإظهار ما تقدمه بطريقة بسيطة",
+                "slide2_p1": "قدم جميع منتجاتك بأفضل طريقة تسويقية لإقناع العميل",
+                "slide3_p1": "بغض النظر عن عدد التفاصيل التي تريد إضافتها ، سنعرضها في أفضل شكل منظم وفقًا للأولوية",
+                "slide4_p1": "توفير جميع الخيارات للعميل للتعامل بشكل أسرع",
+                "slide5_p1": "يمكنك إضافة آراء عملائك القدامى لكسب ثقة العملاء الجدد"
             }
 
         }
@@ -136,6 +145,7 @@
                 "next": "Next",
                 "prev": "Previous"
             },
+            "web_view_try": "Try now",
             "pharoto_view": {
                 "title": "Pharoto Tourism Company inside Egypt",
                 "responsive_title": "Responsive to all screens",
@@ -150,7 +160,16 @@
                 "slide8_p1": "You will receive all the data that you may need, and the customer will fill it in with admiration for your site design",
                 "slide9_p1": "If you want, we will provide you with customer service to receive complaints from your customers to ensure their loyalty",
                 "slide10_p1": "Your customers will not lose their data by creating an account by Google/Facebook"
+            },
+            "mammoth_view": {
+                "title": "Men fashion store",
+                "slide1_p1": "best Interactive hero section to show what you present in a simple way",
+                "slide2_p1": "Present all your products in the best marketing way to impress the customer ",
+                "slide3_p1": "No matter how many details you want to add, we will display them in the best organized form according to priority",
+                "slide4_p1": "Provide all options to the customer to deal faster",
+                "slide5_p1": "You can add the opinions of your old customers to gain the trust of new customers"
             }
+
 
         }
     }
