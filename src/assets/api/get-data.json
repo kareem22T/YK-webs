@@ -1,0 +1,118 @@
+{ 
+    "ar": {
+        "status": true,
+        "errNum": "S000",
+        "lang": null,
+        "home": {
+            "hero": {
+            "title": "هنا فرصتك لإطلاق عملك الرائع على الإنترنت!",
+            "contact_btn": "تواصل معنا",
+            "latest_btn": "اعمالنا"
+            },
+            "looking_for": {
+            "title": "عما تبحث؟",
+            "card_1": "إنطلاقة حقيقية عبر الإنترنت لمشروعك الجديد",
+            "card_2": "انشر منتجاتك أو خدماتك على الإنترنت",
+            "card_3": "تنفيذ رائع لأفكارك",
+            "card_4": "اعادة احياء مشروعك القديم"
+            },
+            "latest": {
+            "title": "أحدث أعمالنا",
+            "btn": "عرض",
+            "gympo": "صالة رياضية",
+            "off": "موقع عروض",
+            "mammoth": "موضة الرجال",
+            "pharoto": "شركة سياحة"
+            },
+            "why_us": {
+            "title": "لماذا قد تختارنا نحن؟",
+            "cards": [
+                "استجابة كاملة ومصممة خصيصا",
+                "أفضل قيمة مقابل السعر",
+                "الحرية في التعديلات",
+                "الالتزام بالمواعيد المتفق عليها",
+                "جميع الميزات الازمة لعرض منتجاتك أو خدماتك",
+                "الوصول إلى عملائك بأفضل طريقة",
+                "شباب مبدع يجلب لك الأفكار الإبداعية",
+                "5 سنوات من التعلم والممارسة"
+            ]
+            },
+            "lets_do_it": {
+            "title": "هيا بنا!",
+            "sub_title": "أخبرنا بتخيلك وسوف نبهرك بتنفيذنا"
+            },
+            "footer": {
+            "kareem_name": "كريم محمد",
+            "youssef_name": "يوسف فؤاد",
+            "kareem_title": "مطور ويب",
+            "youssef_title": "مصمم واجهة المستخدم",
+            "title": "نحن في انتظارك لتحقيق حلمك",
+            "sub_title": "هذا هو كل شئ!"
+            },
+            "cookies": {
+            "title": "نحن نستخدم ملفات تعريف الارتباط",
+            "content": "هذا الموقع يستخدم ملفات تعريف الارتباط لضمان لك احسن تجربة",
+            "btn": "قبول ملفات تعريف الارتباط"
+            }
+        }
+    },
+
+    "en": {
+        "status": true,
+        "errNum": "S000",
+        "lang": "en",
+        "home": {
+            "hero": {
+                "title": "Here you are going to launch your awesome work on internet!",
+                "contact_btn": "contact us",
+                "latest_btn": "Latest"
+            },
+            "looking_for": {
+                "title": "looking for what?",
+                "card_1": "Real strong online launch for your new project",
+                "card_2": "Publish your products or services on the Internet",
+                "card_3": "An impressive implementation of your ideas",
+                "card_4": "Renew your old project"
+            },
+            "latest": {
+                "title": "our latest work",
+                "btn": "show me",
+                "gympo": "GYM",
+                "off": "offers app",
+                "mammoth": "men fashion",
+                "pharoto": "tourism compony"
+            },
+            "why_us": {
+                "title": "why us?",
+                "cards": [
+                    "Fully responsive, custom designed",
+                    "Best value for the price",
+                    "Freedom in modifications",
+                    "Commitment to agreed deadlines",
+                    "All features to show your products or services",
+                    "Reach your customers in the best way",
+                    "Creative youth brings you creative ideas",
+                    "5 years of learning and practicing"
+                ]
+            },
+            "lets_do_it": {
+                "title": "let’s do it!",
+                "sub_title": "Tell us your imagination and we will impress you"
+            },
+            "footer": {
+                "kareem_name": "Kareem Mohamed",
+                "youssef_name": "Youssef Fouad",
+                "kareem_title": "web developer",
+                "youssef_title": "Ux/Ui designer",
+                "title": "We are waiting for you to fulfill your dream",
+                "sub_title": "that is all!"
+            },
+            "cookies": {
+                "title": "We use cookies",
+                "content": "This site use cookies to ensure you have the best experince",
+                "btn": "Accept cookies"
+            }
+        }
+    }
+
+}
