@@ -1,5 +1,8 @@
 <template>
   <div class="home" id="home">
+
+    <side-nav></side-nav>
+
     <div class="accept-cookies" :style="{ display: is_cookies == -1 ? 'block' : 'none' }">
       <i @click="closeCookiePopup()" class='bx bx-x'></i>
       <div class="container">
@@ -355,11 +358,13 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-
+import SideNav from "@/components/SideNav.vue";
 export default {
   components: {
     Swiper,
     SwiperSlide,
+    SideNav,
+
   },
   setup() {
     return {

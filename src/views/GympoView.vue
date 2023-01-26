@@ -220,7 +220,4 @@ export default {
 </script>
 
 <style>
-    .nav-side {
-        display: none;
-    }
 </style>
