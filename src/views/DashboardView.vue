@@ -93,11 +93,11 @@
             </div>
 
             <div class="btns">
-                <a to="/gympo-view"><i class='bx bxs-chevrons-left'></i> {{
+                <a href="/gympo-view"><i class='bx bxs-chevrons-left'></i> {{
                     home_data.home.web_view_btns.prev
                 }}</a>
                 <p>2/6</p>
-                <a to="/off-view">{{ home_data.home.web_view_btns.next }} <i
+                <a href="/off-view">{{ home_data.home.web_view_btns.next }} <i
                         class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>

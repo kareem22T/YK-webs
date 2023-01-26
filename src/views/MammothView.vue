@@ -68,9 +68,9 @@
             </div>
 
             <div class="btns">
-                <a to="/pharoto-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
+                <a href="/pharoto-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
                 <p>5/6</p>
-                <a to="/gympo-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
+                <a href="/gympo-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
 

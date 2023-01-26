@@ -79,9 +79,9 @@
                 </div>
             </div>
             <div class="btns">
-                <a to="/dashboard-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
+                <a href="/dashboard-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
                 <p>3/6</p>
-                <a to="/pharoto-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
+                <a href="/pharoto-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
 
