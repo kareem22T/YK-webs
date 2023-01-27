@@ -42,7 +42,7 @@ export default {
     name: 'LoadingScreen',
     mounted() {
         $(window).on("load", function () {
-            setTimeout(function () { $('.loading-page').fadeOut()}, 1500); 
+            setTimeout(function () { $('.loading-page').fadeOut()}, 1100); 
         });
     },
 }
