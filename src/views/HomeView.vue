@@ -502,6 +502,7 @@ export default {
       this.langIconDir = this.lang == "en" ? 90 : 0
     }, closeCookiePopup() {
       $('.accept-cookies').fadeOut('fast')
+      sessionStorage.setItem("cookiesSelect", false);
     }
 
   }, created() {
@@ -510,6 +511,8 @@ export default {
     this.setIconDir()
     this.setLangIconDir()
   }, mounted() {
+    if (sessionStorage.getItem('cookiesSelect'))
+      this.is_cookies = 1
   },
 }
 </script>
