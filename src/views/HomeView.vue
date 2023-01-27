@@ -367,6 +367,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 import SideNav from "@/components/SideNav.vue";
+
 export default {
   components: {
     Swiper,
