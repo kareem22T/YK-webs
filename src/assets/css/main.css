@@ -945,6 +945,11 @@ body footer .container .yk .joo .text h1, body footer .container .yk .kimo .text
   text-align: center;
   white-space: nowrap;
 }
+@media (max-width: 549.98px) {
+  body footer .container .yk .joo .text h1, body footer .container .yk .kimo .text h1 {
+    white-space: normal;
+  }
+}
 body footer .container .yk .joo .text h3, body footer .container .yk .kimo .text h3 {
   font-size: clamp(0.9375rem, calc(-0.5208rem + 3.3333vw), 2.1875rem);
   font-weight: 300;
@@ -1885,11 +1890,6 @@ body footer .links .img ul a:last-child {
   position: absolute;
   z-index: -2;
   border-radius: 50%;
-}
-@media (max-width: 700px) {
-  .loading-page .after-before::after {
-    bottom: 40%;
-  }
 }
 .loading-page .after-before::before {
   content: '';

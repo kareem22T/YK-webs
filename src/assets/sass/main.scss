@@ -904,6 +904,9 @@ body {
                             line-height: clamp(1.4375rem, calc(-0.5313rem + 4.5vw), 3.125rem);
                             text-align: center;
                             white-space: nowrap;
+                            @media (max-width: 549.98px) {
+                                white-space: normal;
+                            }
                         }
                         h3 {
                             font-size: clamp(0.9375rem, calc(-0.5208rem + 3.3333vw), 2.1875rem);
@@ -2011,9 +2014,6 @@ body {
             z-index: -2;
             border-radius: 50%;
 
-            @media (max-width: 700px) {
-                bottom: 40%;
-            }
         }
         &::before {
             content: '';
