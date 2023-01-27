@@ -43,6 +43,7 @@ export default {
     mounted() {
         $(window).on("load", function () {
             setTimeout(function () { $('.loading-page').fadeOut()}, 700); 
+            setTimeout(function () { $('.loading-page').remove()}, 900); 
         });
     },
 }
