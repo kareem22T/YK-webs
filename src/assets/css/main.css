@@ -2104,4 +2104,8 @@ body footer .links .img ul a:last-child {
   animation-delay: 0.9s;
 }
 
+.dark .loading-page {
+  background-color: #1a1a1a;
+}
+
 /*# sourceMappingURL=main.css.map */
