@@ -89,7 +89,7 @@
                 <div class="text">
                     <p>{{ home_data.home.dashboard_view.slide6_p1 }}</p>
                 </div>
-                <div class="img"><img src="../assets/img/dashboard/5.png?v=1.2" alt=""></div>
+                <div class="img"><img src="../assets/img/dashboard/6.png" alt=""></div>
             </div>
 
             <div class="btns">
