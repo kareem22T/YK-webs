@@ -80,7 +80,7 @@
                 <div class="img"><img src="../assets/img/dashboard/4.png" alt=""></div>
             </div>
             <div class="slide">
-                <div class="img"><img src="../assets/img/dashboard/5.png" alt=""></div>
+                <div class="img"><img src="../assets/img/dashboard/5.png" alt=""></div> 
                 <div class="text">
                     <p>{{ home_data.home.dashboard_view.slide5_p1 }}</p>
                 </div>
