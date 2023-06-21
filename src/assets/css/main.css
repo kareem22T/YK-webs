@@ -5,6 +5,10 @@
   font-family: 'Outfit', sans-serif;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }

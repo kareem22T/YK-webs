@@ -43,13 +43,13 @@
       <div class="after-before"></div>
       <div class="container">
         <div class="text">
-          <h1>{{ home_data.home.hero.title }}</h1>
+          <h1 class="hidden">{{ home_data.home.hero.title }}</h1>
           <div class="btns">
             <a href="#latest">{{ home_data.home.hero.latest_btn }}</a>
             <a href="#contact">{{ home_data.home.hero.contact_btn }}</a>
           </div>
         </div>
-        <div class="img">
+        <div class="img hidden">
           <img src="../assets/img/hero-img.png" alt="">
         </div>
       </div>
@@ -514,10 +514,16 @@ export default {
     if (sessionStorage.getItem('cookiesSelect'))
       this.is_cookies = 1
 
+      // start enter animation
         $(window).on('load', function () {
         setTimeout(() => {
-          $('.hero .img').addClass('animate__animated animate__fadeInBottomRight')
+          $('.hero .img').fadeIn().addClass($('body').hasClass('ar') ? 'animate__animated animate__fadeInBottomLeft' : 'animate__animated animate__fadeInBottomRight').
+          css({'display': 'flex', 'visibility':'visible'})
         }, 1350);
+        setTimeout(() => {
+          $('.hero .text h1').fadeIn().addClass('animate__animated animate__fadeInUp').
+          css({'display': 'flex', 'visibility':'visible'})
+        }, 1700);
       })
   },
 }
