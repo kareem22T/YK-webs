@@ -513,6 +513,12 @@ export default {
   }, mounted() {
     if (sessionStorage.getItem('cookiesSelect'))
       this.is_cookies = 1
+
+        $(window).on('load', function () {
+        setTimeout(() => {
+          $('.hero .img').addClass('animate__animated animate__fadeInBottomRight')
+        }, 1350);
+      })
   },
 }
 </script>
