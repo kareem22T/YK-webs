@@ -9,6 +9,9 @@
             "contact_btn": "تواصل معنا",
             "latest_btn": "اعمالنا"
             },
+            "trusted_by": {
+                "title": "عملائنا"
+            },
             "looking_for": {
                 "title": "عما تبحث؟",
                 "card_1": "إنطلاقة حقيقية عبر الإنترنت لمشروعك الجديد",
@@ -133,6 +136,9 @@
                 "contact_btn": "contact us",
                 "latest_btn": "Latest"
             },
+            "trusted_by": {
+                "title": "Trusted by"
+            },
             "looking_for": {
                 "title": "looking for what?",
                 "card_1": "Real strong online launch for your new project",
@@ -198,6 +204,9 @@
                 "slide8_p1": "You will receive all the data that you may need, and the customer will fill it in with admiration for your site design",
                 "slide9_p1": "If you want, we will provide you with customer service to receive complaints from your customers to ensure their loyalty",
                 "slide10_p1": "Your customers will not lose their data by creating an account by Google/Facebook"
+            },
+            "onmyway_view": {
+                "title": "online therapy service in Australia"
             },
             "mammoth_view": {
                 "title": "Men fashion store",

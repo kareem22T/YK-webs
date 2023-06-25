@@ -55,7 +55,51 @@
       </div>
     </section>
 
-    <div id="looking-for"></div>
+    <section class="trusted_by">
+      <div class="after-before"></div>
+      <div class="container">
+        <h1 class="section-head">
+          {{ home_data.home.trusted_by.title }}
+        </h1>
+
+        <div class="companies">
+          <div>
+            <div class="img">
+              <img src="../assets/img/companies/company-1.png" alt="">
+            </div>
+            <h1>on my way therapy</h1>
+            <img src="../assets/img/flags/au.png" alt="">
+            <div class="bg"></div>
+          </div>
+          <div>
+            <div class="img">
+              <img src="../assets/img/companies/company-2.png" alt="">
+            </div>
+            <h1>Cross care</h1>
+            <img src="../assets/img/flags/au.png" alt="">
+            <div class="bg"></div>
+          </div>
+          <div>
+            <div class="img">
+              <img src="../assets/img/companies/company-3.png" alt="">
+            </div>
+            <h1>Aspire Egypt</h1>
+              <img src="../assets/img/flags/sa.png" alt="">
+            <div class="bg"></div>
+          </div>
+          <div>
+            <div class="img">
+              <img src="../assets/img/companies/company-4.png" alt="">
+            </div>
+            <h1>Cyrus Technology</h1>
+            <img src="../assets/img/flags/eg.png" alt="">
+            <div class="bg"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+      <div id="looking-for"></div>
 
     <section class="looking_for" id="looking">
       <div class="after-before"></div>
