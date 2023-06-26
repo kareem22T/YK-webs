@@ -202,6 +202,22 @@
             }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
+                  <img src="../assets/img/our-work/onmyway.gif" alt="">
+                </div>
+                <h1>On My Way</h1>
+                <p>{{ home_data.home.latest.onmyway }}</p>
+                <a href="/OnMyWayTherapy-view" >{{ home_data.home.latest.btn }}</a>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/aspire.gif" alt="">
+                </div>
+                <h1>Aspire</h1>
+                <p>{{ home_data.home.latest.aspire }}</p>
+                <a href="/aspire-view" >{{ home_data.home.latest.btn }}</a>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
                   <img src="../assets/img/our-work/gympo.gif" alt="">
                 </div>
                 <h1>GYMPO</h1>
@@ -369,7 +385,7 @@
           </div>
         </div>
         <h1>{{ home_data.home.footer.title }}</h1>
-        <h3>
+        <h3 style="margin: 0;">
           {{ home_data.home.footer.sub_title }}
           <img src="../assets/img/footer.png" alt="">
         </h3>

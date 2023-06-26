@@ -1089,7 +1089,7 @@ body {
                     color: white;
                     position: absolute;
                     top: 43.7%;
-                    right: calc(100%);
+                    right: calc(100% + 4px);
                     list-style: none;
                     display: flex;
                     justify-content: center;
@@ -1113,9 +1113,16 @@ body {
                             background: linear-gradient(247.5deg, #60FC7C 11.73%, #4AB161 88.29%);
                             align-items: end;
                         }
+                        li {
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
                     }
                 }
             }
+
         }
     }
 }
@@ -1881,9 +1888,6 @@ body {
     text-decoration: none;
     margin-top: 15px;
 }
-.ar .try-link {
-    line-height: 50px;
-}
 .mammoth-view .try-link {
     background-color: #FF5202;
 }
@@ -2031,6 +2035,50 @@ body {
     >.container .mobile-slide .imgs img {
         border-radius: none !important;
         border: none !important;
+    }
+}
+
+.onmyway_view {
+    .container {
+        .head >p, .video >p {
+            font-size: clamp(1.125rem, calc(0.5571rem + 2.3913vw), 2.5rem);
+            font-weight: 700;
+            line-height: clamp(1.75rem, calc(0.9239rem + 3.4783vw), 3.75rem);
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: clamp(0.9375rem, calc(0.5503rem + 1.6304vw), 1.875rem);
+        }
+        .try-link, .btns a {
+            background: rgba(255, 196, 0, 1);
+            color:rgb(0, 0, 0) !important
+        }
+        iframe {
+            border-color: rgba(255, 196, 0, 1);
+        }
+    }
+}
+.aspire-view {
+    .container {
+        .try-link, .btns a {
+            background: rgba(192, 30, 46, 1);
+        }
+        .slide .img {
+            border-color: rgba(192, 30, 46, 1);
+        }
+        .slide .text .colors span:nth-child(1) {
+            background: rgba(192, 30, 46, 1);
+            border: none;
+        }
+
+        .slide .text .colors span:nth-child(2) {
+            background-color: #fff;
+            border: 1px solid black;
+        }
+
+        .slide .text .colors span:nth-child(3) {
+            background-color: #000;
+            border: 1px solid white;
+        }
     }
 }
 

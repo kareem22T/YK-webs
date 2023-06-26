@@ -22,6 +22,8 @@
             "latest": {
                 "title": "أحدث أعمالنا",
                 "btn": "عرض",
+                "onmyway": "خدمة معالجين",
+                "aspire": "تدريبات للموظفين",
                 "gympo": "صالة رياضية",
                 "off": "موقع عروض",
                 "mammoth": "موضة الرجال",
@@ -63,6 +65,13 @@
                 "prev": "السابق"
             },
             "web_view_try": "جرب الأن",
+            "onmyway_view": {
+                "title": "خدمة طلب معالج عبر الإنترنت في استراليا",
+                "p1": "نقدم لكم أحد أكبر مشاريعنا التي تم تنفيذها في أستراليا والتي حازت على إعجاب برنامج المستثمرين SHARK Tank  ، وتمت الموافقة على الاستثمار في الفكرة وهي فكرة شبيهة بفكرة اوبر ، لكنك تطلب قدوم معالج الي بيتك",
+                "p2": "تبسط الصفحة الرئيسية الفكرة للأشخاص وتشرحها تمامًا ، وتشرح كيفية جعل العميل أو المعالج ينضم إلى المنصة بسهولة ، والزر لتشجيع اتخاذ القرار موجود دائمًا لمساعدتهم على التسجيل بشكل أسرع ، ونوضح دائمًا سبب قيام العميل اخترك وتعامل معك بشكل خاص",
+                "p3": "أبسط واجهة مستخدم لمساعدة جميع الأشخاص ببساطة طلب المعالج المناسب لهم ، وخاصة كبار السن وذوي الاحتياجات الخاصة",
+                "p4": "كل ما قد يحتاجه المعالج لمعرفة المعلومات سواء عن حالة المرض أو موقعه ، وإمكانية التواصل معه ، وإنشاء جدول مواعيد محدد ، ومعرفة مواعيده ، وتذكيره بها ، يجعل موقعنا واحدًا من أفضل مساعد وسكرتير وجذب العملاء أيضًا!"
+            },
             "pharoto_view": {
                 "title": "شركة فاروتو للسياحة داخل مصر",
                 "responsive_title": "تستجيب لجميع الشاشات",
@@ -98,6 +107,13 @@
                 "slide4_p1": "ربط حسابات التواصل الاجتماعي في المكان المناسب على الموقع",
                 "slide5_p1": "جمع المعلومات الأكثر فائدة من العميل لمنحه رد أسرع",
                 "slide5_p2": "تذييل مميز لكل موقع"
+            },
+            "aspire_view": {
+                "title": "حلول تدريبات للموظفين",
+                "slide1_p1": "أفضل قسم استقبال للموقع للتعبير عن رسالة الشركة من النظرة الأولى",
+                "slide2_p1": "نجعل العميل يثق بموقعك من خلال الإحصائيات والأدلة",
+                "slide3_p1": "نختار دائمًا الكلمات المميزة والأكثر تعبيرًا لخلق رغبة العميل في المتابعة",
+                "slide4_p1": "نمنح عميلك الفرصة للتواصل معك ليصبح عميلاً محتملاً"
             },
             "off_view": {
                 "title": "موقع لتقديم العروض",
@@ -149,6 +165,8 @@
             "latest": {
                 "title": "our latest work",
                 "btn": "show me",
+                "onmyway": "Therapy service",
+                "aspire": "Training solutions",
                 "gympo": "GYM",
                 "off": "offers app",
                 "mammoth": "men fashion",
@@ -190,6 +208,13 @@
                 "prev": "Previous"
             },
             "web_view_try": "Try now",
+            "onmyway_view": {
+                "title": "online therapy service in Australia",
+                "p1": "We present to you one of our largest projects that have been implemented in Australia and won the admiration of the SHARK Tank Program, and it was approved to invest in the idea, which is an idea similar to Uber, but you require a therapist to your home",
+                "p2": "The home page simplifies the idea for people and explains it perfectly, and explains how to make the client or therapist join the platform easily, call to action button to encourage decision-making is always there to help them register faster, we always explain why the client may choose you and deal with you in particular",
+                "p3": "The simplest user interface to help all people simply request the appropriate therapist for them, especially the elderly and people with special needs",
+                "p4": "All that the therapist may need to find out information, whether about the condition of the disease or its location, the possibility of communicating with him, creating a fixed schedule of appointments, knowing his appointments, and reminding him of them, makes our site one of the best assistant, secretary, and attracting clients as well!"
+            },
             "pharoto_view": {
                 "title": "Pharoto Tourism Company inside Egypt",
                 "responsive_title": "Responsive to all screens",
@@ -204,9 +229,6 @@
                 "slide8_p1": "You will receive all the data that you may need, and the customer will fill it in with admiration for your site design",
                 "slide9_p1": "If you want, we will provide you with customer service to receive complaints from your customers to ensure their loyalty",
                 "slide10_p1": "Your customers will not lose their data by creating an account by Google/Facebook"
-            },
-            "onmyway_view": {
-                "title": "online therapy service in Australia"
             },
             "mammoth_view": {
                 "title": "Men fashion store",
@@ -228,6 +250,13 @@
                 "slide4_p1": "linking social media accounts in the appropriate place on the site",
                 "slide5_p1": "collect the most useful information from client to give him faster response",
                 "slide5_p2": "distinctive footer for each site"
+            },
+            "aspire_view": {
+                "title": "Training solutions",
+                "slide1_p1": "The best hero section to express the company's message at first sight",
+                "slide2_p1": "We make the customer trust your site with statistics and evidence",
+                "slide3_p1": "We always choose the distinctive and most expressive words to create the customer's desire to follow up",
+                "slide4_p1": "We give your customer the opportunity to communicate with you to become a potential customer"
             },
             "off_view": {
                 "title": "offers website",

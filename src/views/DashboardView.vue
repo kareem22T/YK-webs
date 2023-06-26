@@ -96,7 +96,7 @@
                 <a href="/gympo-view"><i class='bx bxs-chevrons-left'></i> {{
                     home_data.home.web_view_btns.prev
                 }}</a>
-                <p>2/5</p>
+                <p>4/7</p>
                 <a href="/off-view">{{ home_data.home.web_view_btns.next }} <i
                         class='bx bxs-chevrons-right'></i></a>
             </div>

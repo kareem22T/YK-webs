@@ -5,12 +5,24 @@ import offView from '../views/OffView.vue'
 import MammothView from '../views/MammothView.vue'
 import GympoView from '../views/GympoView.vue'
 import DashboardView from '../views/DashboardView.vue'
+import OnmywayView from '../views/OnmywayView.vue'
+import AspireView from '../views/AspireView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/OnMyWayTherapy-view',
+    name: 'OnMyWay',
+    component: OnmywayView
+  },
+  {
+    path: '/aspire-view',
+    name: 'aspire',
+    component: AspireView
   },
   {
     path: '/pharoto-view',

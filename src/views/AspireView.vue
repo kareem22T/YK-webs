@@ -1,5 +1,5 @@
 <template>
-    <div class="site-details dashboard-view onmyway_view">
+    <div class="site-details aspire-view">
         <nav class="top-nav">
             <div class="container">
                 <ul>
@@ -26,39 +26,45 @@
 
         <div class="container">
             <div class="head">
-                <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>On my way therapy</h1>
-                <h3 class="sub-title">{{ home_data.home.onmyway_view.title }}</h3>
-                <a class="try-link" href="https://onmywaytherapy.com.au/" target="_blank">
-                {{ home_data.home.web_view_try }}</a>
-                <p>
-                    {{  home_data.home.onmyway_view.p1 }}
-                </p>
+                <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>aspire</h1>
+                <h3 class="sub-title">{{ home_data.home.aspire_view.title }}</h3>
+                <a class="try-link" href="https://aspire.vercel.app/" target="_blank">
+                    {{ home_data.home.web_view_try }}</a>
             </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/FO-szLmU4XY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>
-                    {{ home_data.home.onmyway_view.p2 }}
-                </p>
+            <div class="slide">
+                <div class="img"><img src="../assets/img/aspire/1.png" alt=""></div>
+                <div class="text">
+                    <div class="colors">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <p>{{ home_data.home.aspire_view.slide1_p1 }}</p>
+                </div>
             </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rcQHhv1Sdg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>
-                    {{ home_data.home.onmyway_view.p3 }}
-                </p>
+            <div class="slide">
+                <div class="text">
+                    <p>{{ home_data.home.aspire_view.slide2_p1 }}</p>
+                </div>
+                <div class="img"><img src="../assets/img/aspire/2.png" alt=""></div>
             </div>
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JxxkWeJYK_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>
-                    {{ home_data.home.onmyway_view.p4 }}
-                </p>
+            <div class="slide">
+                <div class="img"><img src="../assets/img/aspire/3.png" alt=""></div>
+                <div class="text">
+                    <p>{{ home_data.home.aspire_view.slide3_p1 }}</p>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="text">
+                    <p>{{ home_data.home.aspire_view.slide4_p1 }}</p>
+                </div>
+                <div class="img"><img src="../assets/img/aspire/4.png" alt=""></div>
             </div>
 
             <div class="btns">
-                <a href="/mammoth-view"><i class='bx bxs-chevrons-left'></i> {{
-                    home_data.home.web_view_btns.prev
-                }}</a>
-                <p>1/7</p>
-                <a href="/aspire-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
+                <a href="/OnMyWayTherapy-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
+                <p>2/7</p>
+                <a href="/gympo-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
 
@@ -71,7 +77,7 @@ var $ = global.jQuery;
 window.$ = $;
 
 export default {
-    name: 'OnmywayView',
+    name: 'AspireView',
     data() {
         return {
             color: 'dark',

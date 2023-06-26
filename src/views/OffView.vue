@@ -80,7 +80,7 @@
             </div>
             <div class="btns">
                 <a href="/dashboard-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
-                <p>3/5</p>
+                <p>5/7</p>
                 <a href="/pharoto-view">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
