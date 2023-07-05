@@ -28,7 +28,7 @@
             <div class="head">
                 <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>aspire</h1>
                 <h3 class="sub-title">{{ home_data.home.aspire_view.title }}</h3>
-                <a class="try-link" href="https://aspire.vercel.app/" target="_blank">
+                <a class="try-link" href="https://aspire-assessment.vercel.app/" target="_blank">
                     {{ home_data.home.web_view_try }}</a>
             </div>
             <div class="slide">
