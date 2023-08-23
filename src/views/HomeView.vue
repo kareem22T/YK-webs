@@ -3,7 +3,7 @@
 
     <side-nav></side-nav>
 
-    <div class="accept-cookies" :style="{ display: is_cookies == -1 ? 'block' : 'none' }">
+    <div class="accept-cookies" v-if="!is_cookies">
       <i @click="closeCookiePopup()" class='bx bx-x'></i>
       <div class="container">
         <img src="../assets/img/accept.svg" alt="">
@@ -448,7 +448,7 @@ export default {
       home_data: null,
       iconDir: 92,
       langIconDir: 90,
-      is_cookies: -1,
+      is_cookies: false,
     }
   },
   methods: {
@@ -486,7 +486,7 @@ export default {
       document.cookie = "theme=" + this.color + "; max-age=" + 60 * 60 * 24 * 30;
       document.cookie = "lang=" + this.lang + "; max-age=" + 60 * 60 * 24 * 30;
       let langCheck = document.cookie.indexOf('lang')
-      this.is_cookies = langCheck
+      this.is_cookies = langCheck >= 0 ? true : false
       // document.cookie = "theme=; max-age=" + -60 * 60 * 24 * 30;
       // document.cookie = "lang=; max-age=" + -60 * 60 * 24 * 30;
     }, getHomeData() {
@@ -512,7 +512,7 @@ export default {
       let themeCheck = document.cookie.indexOf('theme')
       let langCheck = document.cookie.indexOf('lang')
 
-      this.is_cookies = langCheck
+      this.is_cookies = langCheck  >= 0 ? true : false
 
       function getCookie(cname) {
         let name = cname + "=";
