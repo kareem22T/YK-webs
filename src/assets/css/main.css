@@ -766,6 +766,12 @@ body .on-going .container {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
 }
+@media (max-width: 500px) {
+  body .on-going .container {
+    flex-direction: column;
+    display: flex;
+  }
+}
 body .on-going .container > div {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
