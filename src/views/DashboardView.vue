@@ -51,44 +51,20 @@
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/dashboard/1.png" alt=""></div>
-                <div class="text">
-                    <div class="colors">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <p>{{ home_data.home.dashboard_view.slide1_p1 }}</p>
-                </div>
             </div>
             <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.dashboard_view.slide2_p1 }}</p>
-                </div>
                 <div class="img"><img src="../assets/img/dashboard/2.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/dashboard/3.png" alt=""></div>
-                <div class="text">
-                    <p>{{ home_data.home.dashboard_view.slide3_p1 }}</p>
-                </div>
             </div>
             <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.dashboard_view.slide4_p1 }}</p>
-                </div>
                 <div class="img"><img src="../assets/img/dashboard/4.png" alt=""></div>
             </div>
             <div class="slide">
                 <div class="img"><img src="../assets/img/dashboard/5.png" alt=""></div> 
-                <div class="text">
-                    <p>{{ home_data.home.dashboard_view.slide5_p1 }}</p>
-                </div>
             </div>
             <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.dashboard_view.slide6_p1 }}</p>
-                </div>
                 <div class="img"><img src="../assets/img/dashboard/6.png" alt=""></div>
             </div>
 
