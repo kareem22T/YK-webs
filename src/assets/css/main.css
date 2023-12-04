@@ -2554,8 +2554,11 @@ body .why-us .after-before {
   section {
     padding-bottom: 0 !important;
   }
+  section:not(.hero) {
+    margin-top: -120px;
+  }
   section > *:not(.after-before, .after) {
-    scale: .8;
+    scale: .7;
     transform-origin: top;
     /* Set the transform origin to the top left corner */
   }
