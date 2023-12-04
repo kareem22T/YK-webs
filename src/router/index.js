@@ -1,12 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import pharotoView from '../views/PharotoView.vue'
-import offView from '../views/OffView.vue'
-import MammothView from '../views/MammothView.vue'
-import GympoView from '../views/GympoView.vue'
 import DashboardView from '../views/DashboardView.vue'
-import OnmywayView from '../views/OnmywayView.vue'
-import AspireView from '../views/AspireView.vue'
+import FentecView from '../views/FentecView.vue'
 
 const routes = [
   {
@@ -15,39 +11,19 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/OnMyWayTherapy-view',
-    name: 'OnMyWay',
-    component: OnmywayView
-  },
-  {
-    path: '/aspire-view',
-    name: 'aspire',
-    component: AspireView
-  },
-  {
     path: '/pharoto-view',
     name: 'pharoto',
     component: pharotoView
   },
   {
-    path: '/off-view',
-    name: 'off',
-    component: offView
-  },
-  {
-    path: '/mammoth-view',
-    name: 'mammoth',
-    component: MammothView
-  },
-  {
-    path: '/gympo-view',
-    name: 'gympo',
-    component: GympoView
-  },
-  {
     path: '/dashboard-view',
     name: 'dashboard',
     component: DashboardView
+  },
+  {
+    path: '/fentec-preview',
+    name: 'fentec',
+    component: FentecView
   },
 ]
 

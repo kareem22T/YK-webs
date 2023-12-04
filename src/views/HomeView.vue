@@ -75,8 +75,8 @@
             <div class="img">
               <img src="../assets/img/companies/company-2.png" alt="">
             </div>
-            <h1>Cross care</h1>
-            <img src="../assets/img/flags/au.png" alt="">
+            <h1>Fentec Algeria</h1>
+            <img src="../assets/img/flags/dz.png" alt="">
             <div class="bg"></div>
           </div>
           <div>
@@ -202,63 +202,121 @@
             }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/onmyway.gif" alt="">
+                  <img src="../assets/img/our-work/onmyway.png" alt="">
                 </div>
                 <h1>On My Way</h1>
                 <p>{{ home_data.home.latest.onmyway }}</p>
-                <a href="/OnMyWayTherapy-view" >{{ home_data.home.latest.btn }}</a>
+                <a href="https://onmywaytherapy.com.au/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/aspire.gif" alt="">
+                  <img src="../assets/img/our-work/egs.png" alt="">
+                </div>
+                <h1>Egs</h1>
+                <p>{{ home_data.home.latest.egs }}</p>
+                <a href="https://www.egyptgamestore.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/forkn-knife.png" alt="">
+                </div>
+                <h1>ForknKnife</h1>
+                <p>{{ home_data.home.latest.forknknife }}</p>
+                <a href="https://forkn-knife.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/aspire.png" alt="">
                 </div>
                 <h1>Aspire</h1>
                 <p>{{ home_data.home.latest.aspire }}</p>
-                <a href="/aspire-view" >{{ home_data.home.latest.btn }}</a>
+                <a href="https://aspire-assessment.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/gympo.gif" alt="">
-                </div>
-                <h1>GYMPO</h1>
-                <p>{{ home_data.home.latest.gympo }}</p>
-                <a href="/gympo-view" >{{ home_data.home.latest.btn }}</a>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="img">
-                  <img src="../assets/img/our-work/dashboard.gif" alt="">
+                  <img src="../assets/img/our-work/dashboard.png" alt="">
                 </div>
                 <h1>Dashboard</h1>
                 <p>{{ home_data.home.latest.dashboard }}</p>
-                <a href="/dashboard-view" >{{ home_data.home.latest.btn }}</a>
+                <a href="/dashboard-view" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/off.gif" alt="">
-                </div>
-                <h1>%FF</h1>
-                <p>{{ home_data.home.latest.off }}</p>
-                <a href="/off-view" >{{ home_data.home.latest.btn }}</a>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="img">
-                  <img src="../assets/img/our-work/pharoto.gif" alt="">
+                  <img src="../assets/img/our-work/pharoto.png" alt="">
                 </div>
                 <h1>Pharoto</h1>
                 <p>{{ home_data.home.latest.pharoto }}</p>
-                <a href="/pharoto-view">{{ home_data.home.latest.btn }}</a>
+                <a href="/pharoto-view" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/mammoth.gif" alt="">
+                  <img src="../assets/img/our-work/off.png" alt="">
+                </div>
+                <h1>%FF</h1>
+                <p>{{ home_data.home.latest.off }}</p>
+                <a href="https://off-five.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/mammoth.png" alt="">
                 </div>
                 <h1>Mammoth</h1>
                 <p>{{ home_data.home.latest.mammoth }}</p>
-                <a href="/mammoth-view" >{{ home_data.home.latest.btn }}</a>
+                <a href="https://mammoth-ashy.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/gympo.png" alt="">
+                </div>
+                <h1>GYMPO</h1>
+                <p>{{ home_data.home.latest.gympo }}</p>
+                <a href="https://gympo.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
               </swiper-slide>
           </swiper>
       </div>
     </section>
+
+    <div id="on-going"></div>
+    <section class="on-going">
+        <h1 class="section-head">
+          {{ home_data.home.on_going.title }}
+        </h1>
+        <div class="container">
+            <div>
+              <div class="img">
+                <img src="../assets/img/on_going/fentec_logo.png" alt="">
+              </div>
+              <div class="text">
+                <h1>Fentec</h1>
+                <p>{{ home_data.home.on_going.fentec.p_1 }}</p>
+                <p>{{ home_data.home.on_going.fentec.p_2 }}</p>
+                <img src="../assets/img/flags/dz.png" alt="">
+              </div>
+              <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
+            </div>
+            <div>
+              <div class="img">
+                <img src="../assets/img/on_going/gomhoria.png" alt="">
+              </div>
+              <div class="text">
+                <h1>Gmhorya</h1>
+                <p>{{ home_data.home.on_going.gmhorya.p_1 }}</p>
+                <p>{{ home_data.home.on_going.gmhorya.p_2 }}</p>
+                <img src="../assets/img/flags/eg.png" alt="">
+              </div>
+              <h3>{{ home_data.home.on_going.comming }}</h3>
+            </div>
+        </div>
+      </section>
 
     <div id="why-us"></div>
 

@@ -23,6 +23,8 @@
                 "title": "أحدث أعمالنا",
                 "btn": "عرض",
                 "onmyway": "خدمة معالجين",
+                "egs": "متجر كمبيوتر",
+                "forknknife": "خدمات مطاعم",
                 "aspire": "تدريبات للموظفين",
                 "gympo": "صالة رياضية",
                 "off": "موقع عروض",
@@ -62,7 +64,9 @@
             },
             "web_view_btns": {
                 "next": "التالي",
-                "prev": "السابق"
+                "prev": "السابق",
+                "other_project": "مشروع آخر",
+                "latest": "أحدث الاعمال"
             },
             "web_view_try": "جرب الأن",
             "onmyway_view": {
@@ -71,6 +75,18 @@
                 "p2": "تبسط الصفحة الرئيسية الفكرة للأشخاص وتشرحها تمامًا ، وتشرح كيفية جعل العميل أو المعالج ينضم إلى المنصة بسهولة ، والزر لتشجيع اتخاذ القرار موجود دائمًا لمساعدتهم على التسجيل بشكل أسرع ، ونوضح دائمًا سبب قيام العميل اخترك وتعامل معك بشكل خاص",
                 "p3": "أبسط واجهة مستخدم لمساعدة جميع الأشخاص ببساطة طلب المعالج المناسب لهم ، وخاصة كبار السن وذوي الاحتياجات الخاصة",
                 "p4": "كل ما قد يحتاجه المعالج لمعرفة المعلومات سواء عن حالة المرض أو موقعه ، وإمكانية التواصل معه ، وإنشاء جدول مواعيد محدد ، ومعرفة مواعيده ، وتذكيره بها ، يجعل موقعنا واحدًا من أفضل مساعد وسكرتير وجذب العملاء أيضًا!"
+            },
+            "fentec_view" : {
+                "title": "التنقل من تطبيق تأجير السكوتر",
+                "title_2": "تنقسم منصة فينتك الي",
+                "component1_1": "تطبيق ",
+                "component1_2": "تأجير سكوتر",
+                "component2_1": "لوحة ",
+                "component2_2": "تحكم",
+                "component3_1": "تطبيق ",
+                "component3_2": "بائع النقاط",
+                "component4_1": "تطبيق ",
+                "component4_2": "محاسب النقاط"
             },
             "pharoto_view": {
                 "title": "شركة فاروتو للسياحة داخل مصر",
@@ -114,6 +130,18 @@
                 "slide2_p1": "نجعل العميل يثق بموقعك من خلال الإحصائيات والأدلة",
                 "slide3_p1": "نختار دائمًا الكلمات المميزة والأكثر تعبيرًا لخلق رغبة العميل في المتابعة",
                 "slide4_p1": "نمنح عميلك الفرصة للتواصل معك ليصبح عميلاً محتملاً"
+            },
+            "on_going": {
+                "title": "مشاريع تحت التطوير",
+                "comming": "قريبا",
+                "gmhorya": {
+                    "p_1": "موقع اخباري",
+                    "p_2": "في مصر"
+                },
+                "fentec": {
+                    "p_1": "خدمة تنقل",
+                    "p_2": "بالاسكوتر"
+                }
             },
             "off_view": {
                 "title": "موقع لتقديم العروض",
@@ -162,10 +190,24 @@
                 "card_3": "An impressive implementation of your ideas",
                 "card_4": "Renew your old project"
             },
+            "on_going": {
+                "title": "on going projects",
+                "comming": "coming soon",
+                "gmhorya": {
+                    "p_1": "News site",
+                    "p_2": "in Egypt"
+                },
+                "fentec": {
+                    "p_1": "Mobility",
+                    "p_2": "scooters"
+                }
+            },
             "latest": {
                 "title": "our latest work",
                 "btn": "show me",
                 "onmyway": "Therapy service",
+                "egs": "gaming store",
+                "forknknife": "resturant services",
                 "aspire": "Training solutions",
                 "gympo": "GYM",
                 "off": "offers app",
@@ -205,7 +247,9 @@
             },
             "web_view_btns": {
                 "next": "Next",
-                "prev": "Previous"
+                "prev": "Previous",
+                "other_project": "Other project",
+                "latest": "Latest works"
             },
             "web_view_try": "Try now",
             "onmyway_view": {
@@ -214,6 +258,18 @@
                 "p2": "The home page simplifies the idea for people and explains it perfectly, and explains how to make the client or therapist join the platform easily, call to action button to encourage decision-making is always there to help them register faster, we always explain why the client may choose you and deal with you in particular",
                 "p3": "The simplest user interface to help all people simply request the appropriate therapist for them, especially the elderly and people with special needs",
                 "p4": "All that the therapist may need to find out information, whether about the condition of the disease or its location, the possibility of communicating with him, creating a fixed schedule of appointments, knowing his appointments, and reminding him of them, makes our site one of the best assistant, secretary, and attracting clients as well!"
+            },
+            "fentec_view" : {
+                "title": "Mobility by scooter renting app",
+                "title_2": "Fentec platform is divided into",
+                "component1_1": "Scooter rental",
+                "component1_2": "app",
+                "component2_1": "Dashboard",
+                "component2_2": "website",
+                "component3_1": "Points seller",
+                "component3_2": "app",
+                "component4_1": "Points",
+                "component4_2": "accountant app"
             },
             "pharoto_view": {
                 "title": "Pharoto Tourism Company inside Egypt",

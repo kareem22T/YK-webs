@@ -1,16 +1,17 @@
 <template>
-    <div class="site-details">
+    <div class="site-details fentec_wrapper">
         <nav class="top-nav">
             <div class="container">
                 <ul>
                     <li>
                         <a id="changlang" @click="changeLang(); getHomeData(); setLangIconDir();">
-                            <span class="lang-ch" :style='{ transform: "translateX(" + langIconDir + "%) translateY(-50%)" }'>{{
-                            lang == 'en' ? lang : 'ع' }}</span>
+                            <span class="lang-ch"
+                                :style='{ transform: "translateX(" + langIconDir + "%) translateY(-50%)" }'>{{
+                                    lang == 'en' ? lang : 'ع' }}</span>
                         </a>
                     </li>
                     <li><a href="/"><img src="../assets/img/logo.svg"></a></li>
-        
+
                     <li>
                         <a href="" @click.prevent="changeTheme(); setIconDir()">
                             <span :style='{ transform: "translateX(calc(" + iconDir + "% - 1px)) translateY(-50%)" }'>
@@ -18,95 +19,85 @@
                             </span>
                         </a>
                     </li>
-        
+
                 </ul>
             </div>
         </nav>
 
         <div class="container">
             <div class="head">
-                <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>PHAROTO</h1>
-                <h3 class="sub-title">{{ home_data.home.pharoto_view.title }}</h3>
+                <h1 class="title"><a href="/" class="back"><i class='bx bx-chevron-left'></i></a>Fentec</h1>
+                <h3 class="sub-title">{{ home_data.home.fentec_view.title }}</h3>
+                <div class="sub-title" style="
+                background: rgba(255, 255, 255, 0.2);
+                box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.25);
+                border-radius: 30px;
+                padding: 2rem 1rem;
+                width: 250px;
+                height: 250px;
+                margin-top: 20px;
+                "><img src="../assets/img/on_going/fentec_logo.png" style="width: 100%;height: 100%; object-fit: contain" alt=""></div>
+                <h3 class="sub-title" style="margin-top: 20px">{{ home_data.home.fentec_view.title_2 }}</h3>
             </div>
-            <div class="slide">
-                <div class="img"><img src="../assets/img/pharoto/1.png" alt=""></div>
-                <div class="text">
-                    <div class="colors">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+            <div class="componets">
+                <div>
+                    <div class="img">
+                        <img src="../assets/img/fentec/component-1.png" alt="">
                     </div>
-                    <p>{{ home_data.home.pharoto_view.slide1_p1 }}</p>
-                    <p>{{ home_data.home.pharoto_view.slide1_p2 }}</p>
+                    <div class="text">
+                        {{ home_data.home.fentec_view.component1_1 }} <br>
+                        {{ home_data.home.fentec_view.component1_2 }}
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="../assets/img/fentec/component-2.png" alt="">
+                    </div>
+                    <div class="text">
+                        {{ home_data.home.fentec_view.component2_1 }} <br>
+                        {{ home_data.home.fentec_view.component2_2 }}
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="../assets/img/fentec/component-3.png" alt="">
+                    </div>
+                    <div class="text">
+                        {{ home_data.home.fentec_view.component3_1 }} <br>
+                        {{ home_data.home.fentec_view.component3_2 }}
+                    </div>
+                </div>
+                <div>
+                    <div class="img">
+                        <img src="../assets/img/fentec/component-4.png" alt="">
+                    </div>
+                    <div class="text">
+                        {{ home_data.home.fentec_view.component4_1 }} <br>
+                        {{ home_data.home.fentec_view.component4_2 }}
+                    </div>
                 </div>
             </div>
-            <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide2_p1 }}</p>
-                </div>
-                <div class="img"><img src="../assets/img/pharoto/2.png" alt=""></div>
+            <div class="slide app">
+                <img src="../assets/img/fentec/1.png" alt="">
+                <img src="../assets/img/fentec/2.png" alt="">
+                <img src="../assets/img/fentec/3.png" alt="">
             </div>
-            <div class="slide">
-                <div class="img"><img src="../assets/img/pharoto/3.png" alt=""></div>
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide3_p1 }}</p>
-                </div>
+            <div class="slide app">
+                <img src="../assets/img/fentec/4.png" alt="">
             </div>
-            <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide4_p1 }}</p>
-                </div>
-                <div class="img"><img src="../assets/img/pharoto/4.png" alt=""></div>
+            <div class="slide app">
+                <img src="../assets/img/fentec/5.png" alt="">
+                <img src="../assets/img/fentec/6.png" alt="">
+                <img src="../assets/img/fentec/7.png" alt="">
             </div>
-            <div class="slide">
-                <div class="img"><img src="../assets/img/pharoto/5.png" alt=""></div>
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide5_p1 }}</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide6_p1 }}</p>
-                </div>
-                <div class="img"><img src="../assets/img/pharoto/6.png" alt=""></div>
-            </div>
-            <div class="slide">
-                <div class="img"><img src="../assets/img/pharoto/7.png" alt=""></div>
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide7_p1 }}</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide8_p1 }}</p>
-                </div>
-                <div class="img"><img src="../assets/img/pharoto/8.png" alt=""></div>
-            </div>
-            <div class="slide">
-                <div class="img"><img src="../assets/img/pharoto/9.png" alt=""></div>
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide9_p1 }}</p>
-                </div>
-            </div>
-            <div class="slide">
-                <div class="text">
-                    <p>{{ home_data.home.pharoto_view.slide10_p1 }}</p>
-                </div>
-                <div class="img"><img src="../assets/img/pharoto/10.png" alt=""></div>
-            </div>
-            <div class="mobile-slide">
-                <h1>{{ home_data.home.pharoto_view.responsive_title }}</h1>
-                <div class="imgs">
-                    <img src="../assets/img/pharoto/13.png" alt="">
-                    <img src="../assets/img/pharoto/11.png" alt="">
-                    <img src="../assets/img/pharoto/12.png" alt="">
-                </div>
+            <div class="slide app">
+                <img src="../assets/img/fentec/8.png" alt="">
             </div>
             <div class="btns">
-                <a href="/dashboard-view"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.prev }}</a>
+                <a href="https://onmywaytherapy.com.au/" target="_blanck" style="text-align: right;background: rgba(41, 149, 242, 1);width: 250px"><i class='bx bxs-chevrons-left'></i> {{ home_data.home.web_view_btns.other_project }}</a>
                 <p><img src="./../assets/img/logo.svg" alt="" width="70"></p>
-                <a href="https://www.egyptgamestore.com/">{{ home_data.home.web_view_btns.next }} <i class='bx bxs-chevrons-right'></i></a>
+                <a href="/#latest" style="background: rgba(41, 149, 242, 1);width: 250px;text-align: left;">{{ home_data.home.web_view_btns.latest }} <i
+                        class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
 
@@ -254,5 +245,4 @@ export default {
 }
 </script>
 
-<style>
-</style>
+<style></style>

@@ -93,11 +93,11 @@
             </div>
 
             <div class="btns">
-                <a href="/gympo-view"><i class='bx bxs-chevrons-left'></i> {{
+                <a href="https://onmywaytherapy.com.au/"><i class='bx bxs-chevrons-left'></i> {{
                     home_data.home.web_view_btns.prev
                 }}</a>
-                <p>4/7</p>
-                <a href="/off-view">{{ home_data.home.web_view_btns.next }} <i
+                <p><img src="./../assets/img/logo.svg" alt="" width="70"></p>
+                <a href="/pharoto-view">{{ home_data.home.web_view_btns.next }} <i
                         class='bx bxs-chevrons-right'></i></a>
             </div>
         </div>
