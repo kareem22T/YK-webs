@@ -2549,6 +2549,9 @@ body .why-us .after-before {
             width: max-content;
             display: flex;
             overflow: hidden;
+            img {
+                width: 30%;
+            }
         }
         .img {
             border: none !important;
