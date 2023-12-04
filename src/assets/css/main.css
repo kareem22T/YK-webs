@@ -2530,6 +2530,9 @@ body .why-us .after-before {
   display: flex;
   overflow: hidden;
 }
+.fentec_wrapper .slide.app img {
+  width: 30%;
+}
 .fentec_wrapper .slide .img {
   border: none !important;
   border-radius: none;
