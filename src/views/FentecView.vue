@@ -82,7 +82,7 @@
                 <img src="../assets/img/fentec/2.png" alt="">
                 <img src="../assets/img/fentec/3.png" alt="">
             </div>
-            <div class="slide app">
+            <div class="slide">
                 <img src="../assets/img/fentec/4.png" alt="">
             </div>
             <div class="slide app">
@@ -90,7 +90,7 @@
                 <img src="../assets/img/fentec/6.png" alt="">
                 <img src="../assets/img/fentec/7.png" alt="">
             </div>
-            <div class="slide app">
+            <div class="slide">
                 <img src="../assets/img/fentec/8.png" alt="">
             </div>
             <div class="btns">

@@ -2531,7 +2531,7 @@ body .why-us .after-before {
   overflow: hidden;
 }
 .fentec_wrapper .slide.app img {
-  width: 30%;
+  width: 30% !important;
 }
 .fentec_wrapper .slide .img {
   border: none !important;
