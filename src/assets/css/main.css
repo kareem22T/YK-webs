@@ -2528,6 +2528,7 @@ body .why-us .after-before {
   justify-content: center;
   width: max-content;
   display: flex;
+  overflow: hidden;
 }
 .fentec_wrapper .slide .img {
   border: none !important;
