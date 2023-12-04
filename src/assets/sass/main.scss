@@ -1355,7 +1355,7 @@ body {
     }
 
     .section-head {
-        color: white;
+        color: white !important;
     }
     section, nav .container, footer, .after, .before, .after-before  {
         &::before, &::after {opacity: .7;}

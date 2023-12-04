@@ -1350,7 +1350,7 @@ body footer .links .img ul a li {
   color: white;
 }
 .dark .section-head {
-  color: white;
+  color: white !important;
 }
 .dark section::before, .dark section::after, .dark nav .container::before, .dark nav .container::after, .dark footer::before, .dark footer::after, .dark .after::before, .dark .after::after, .dark .before::before, .dark .before::after, .dark .after-before::before, .dark .after-before::after {
   opacity: .7;
