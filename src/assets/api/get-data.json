@@ -5,9 +5,15 @@
         "lang": null,
         "home": {
             "hero": {
-            "title": "هنا فرصتك لإطلاق عملك الرائع على الإنترنت!",
+            "title": "اهلا بكم!",
+            "title2": "ها نحن فريق YK لتطوير التطبيقات",
+            "title3": "مستعد لجعل حلمك عمل علي ارض الواقع؟",
+            "title4": "(منصات / تطبيقات المحمول / مواقع الكترونية)",
             "contact_btn": "تواصل معنا",
             "latest_btn": "اعمالنا"
+            },
+            "training_projects": {
+                "title": "مشاريع تجريبية"
             },
             "trusted_by": {
                 "title": "عملائنا"
@@ -136,11 +142,11 @@
                 "comming": "قريبا",
                 "gmhorya": {
                     "p_1": "موقع اخباري",
-                    "p_2": "في مصر"
+                    "p_2": "موقع اخباري"
                 },
                 "fentec": {
                     "p_1": "خدمة تنقل",
-                    "p_2": "بالاسكوتر"
+                    "p_2": "خدمة تنقل بالاسكوتر"
                 }
             },
             "off_view": {
@@ -176,12 +182,18 @@
         "lang": "en",
         "home": {
             "hero": {
-                "title": "Here you are going to launch your awesome work on internet!",
-                "contact_btn": "contact us",
+                "title": "Hi there!",
+                "title2": "Here is YK development team",
+                "title3": "We’re ready to fulfill your dreams",
+                "title4": "(Platforms / mobile app / websites)",
+                "contact_btn": "contact",
                 "latest_btn": "Latest"
             },
             "trusted_by": {
                 "title": "Trusted by"
+            },
+            "training_projects": {
+                "title": "Training projects"
             },
             "looking_for": {
                 "title": "looking for what?",
@@ -195,11 +207,11 @@
                 "comming": "coming soon",
                 "gmhorya": {
                     "p_1": "News site",
-                    "p_2": "in Egypt"
+                    "p_2": "News Site"
                 },
                 "fentec": {
                     "p_1": "Mobility",
-                    "p_2": "scooters"
+                    "p_2": "Renting Scooters"
                 }
             },
             "latest": {

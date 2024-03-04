@@ -1,5 +1,5 @@
 <template>
-    <div class="loading-page">
+    <div class="loading-page" style="height: 100vh !important;top: 0; left: 0; width: 100%;">
         <div class="after-before"></div>
         <div class="wrapper">
             <ul>

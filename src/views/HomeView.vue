@@ -19,18 +19,30 @@
       <div class="container">
         <ul>
           <li>
-            <a id="changlang" @click="changeLang(); getHomeData(); setLangIconDir();">
-              <span class="lang-ch" :style='{ transform: "translateX(" + langIconDir + "%) translateY(-50%)" }'>{{ lang == 'en' ? lang : 'ع' }}</span>
-            </a>
+            <label class="ui-switch lang" @click.prevent="changeLang(); getHomeData(); setLangIconDir()">
+              <input type="checkbox" :checked="lang == 'en'">
+              <div class="slider">
+                <div class="circle">
+                  {{ lang == "en" ? "EN" : "ع" }}
+                </div>
+              </div>
+            </label>
           </li>
           <li><a href="#home"><img src="../assets/img/logo.svg"></a></li>
 
           <li>
-            <a href="" @click.prevent="changeTheme(); setIconDir()">
+            <!-- <a href="" @click.prevent="changeTheme(); setIconDir()">
               <span :style='{ transform: "translateX(calc(" + iconDir + "% - 1px)) translateY(-50%)" }'>
                 <i class='bx' :class='color == "dark" ? "bxs-moon" : "bxs-sun"'></i>
               </span>
-            </a>
+            </a> -->
+            <label class="ui-switch" @click.prevent="changeTheme(); setIconDir()">
+              <input type="checkbox" :checked="color == 'light'">
+              <div class="slider">
+                <div class="circle"></div>
+              </div>
+            </label>
+
           </li>
 
         </ul>
@@ -39,23 +51,48 @@
 
     <section class="space"></section>
 
-    <section class="hero" id="hero">
+    <section class="hero animate__animated animate__fadeInUp" id="hero" v-if="showSections">
       <div class="after-before"></div>
       <div class="container">
         <div class="text">
           <h1>{{ home_data.home.hero.title }}</h1>
+          <h1>{{ home_data.home.hero.title2 }}</h1>
+          <h1>{{ home_data.home.hero.title3 }}</h1>
+          <h1>{{ home_data.home.hero.title4 }}</h1>
           <div class="btns">
-            <a href="#latest">{{ home_data.home.hero.latest_btn }}</a>
-            <a href="#contact">{{ home_data.home.hero.contact_btn }}</a>
+            <!-- <a href="#latest">{{ home_data.home.hero.latest_btn }}</a> -->
+            <a href="#latest" class="btn" type="button">
+              <strong>{{ home_data.home.hero.latest_btn }}</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </a>
+            <a href="#contact" class="btn last" type="button">
+              <strong>{{ home_data.home.hero.contact_btn }}</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </a>
+            <!-- <a href="#contact">{{ home_data.home.hero.contact_btn }}</a> -->
           </div>
         </div>
         <div class="img">
-          <img src="../assets/img/hero-img.png" alt="">
+          <img src="../assets/img/hero_new.png" alt="">
         </div>
       </div>
     </section>
 
-    <section class="trusted_by">
+    <section class="trusted_by animate__animated animate__fadeInUp" v-if="showSections">
       <div class="after-before"></div>
       <div class="container">
         <h1 class="section-head">
@@ -64,133 +101,63 @@
 
         <div class="companies">
           <div>
-            <div class="img">
-              <img src="../assets/img/companies/company-1.png" alt="">
-            </div>
-            <h1>on my way therapy</h1>
-            <img src="../assets/img/flags/au.png" alt="">
-            <div class="bg"></div>
-          </div>
-          <div>
-            <div class="img">
-              <img src="../assets/img/companies/company-2.png" alt="">
-            </div>
-            <h1>Fentec Algeria</h1>
-            <img src="../assets/img/flags/dz.png" alt="">
-            <div class="bg"></div>
-          </div>
-          <div>
-            <div class="img">
-              <img src="../assets/img/companies/company-3.png" alt="">
+            <div class="img" style="padding: 5px;">
+              <img src="../assets/img/companies/aspire.png" alt="">
             </div>
             <h1>Aspire Egypt</h1>
               <img src="../assets/img/flags/sa.png" alt="">
-            <div class="bg"></div>
+          </div>
+          <div>
+            <div class="img"  style="padding: 4px;">
+              <img src="../assets/img/companies/onmyway.png" alt="">
+            </div>
+            <h1>on my way ther.</h1>
+            <img src="../assets/img/flags/au.png" alt="">
           </div>
           <div>
             <div class="img">
-              <img src="../assets/img/companies/company-4.png" alt="">
+              <img src="../assets/img/companies/fentec.png" alt="">
+            </div>
+            <h1>Fentec Algeria</h1>
+            <img src="../assets/img/flags/dz.png" alt="">
+          </div>
+          <div>
+            <div class="img">
+              <img src="../assets/img/companies/cyrus.png" alt="">
             </div>
             <h1>Cyrus Technology</h1>
             <img src="../assets/img/flags/eg.png" alt="">
-            <div class="bg"></div>
           </div>
         </div>
-
-      </div>
-    </section>
-      <div id="looking-for"></div>
-
-    <section class="looking_for" id="looking">
-      <div class="after-before"></div>
-      <div class="container">
-        <h1 class="section-head">
-          {{ home_data.home.looking_for.title }}
-        </h1>
-
-        <div>
-          <div class="card_1">
-            <div class="img">
-              <img src="../assets/img/looking_for/1.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_1 }}
-          </div>
-          <div class="card_2">
-            <div class="img">
-              <img src="../assets/img/looking_for/2.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_2 }}
-          </div>
-
-          <div class="img">
-            <img src="../assets/img/looking_for/main.png" alt="">
-          </div>
-
-          <div class="card_3">
-            <div class="img">
-              <img src="../assets/img/looking_for/3.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_3 }}
-          </div>
-          <div class="card_4">
-            <div class="img">
-              <img src="../assets/img/looking_for/4.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_4 }}
-          </div>
-        </div>
-
-        <swiper :slidesPerView="1" :spaceBetween="40" 
-          :pagination="{
-            clickable: true,
-          }" :modules="modules" class="looking-for-slider">
-
-          <swiper-slide class="card_1">
-            <div class="img">
-              <img src="../assets/img/looking_for/1.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_1 }}
-          </swiper-slide>
-          <swiper-slide class="card_2">
-            <div class="img">
-              <img src="../assets/img/looking_for/2.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_2 }}
-          </swiper-slide>
-          <swiper-slide class="card_3">
-            <div class="img">
-              <img src="../assets/img/looking_for/3.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_3 }}
-          </swiper-slide>
-          <swiper-slide class="card_4">
-            <div class="img">
-              <img src="../assets/img/looking_for/4.png" alt="">
-            </div>
-            {{ home_data.home.looking_for.card_4 }}
-          </swiper-slide>
-        </swiper>
 
       </div>
     </section>
 
     <div id="latest"></div>
 
-    <section class="latest" id="latest-sec">
+    <section class="latest  animate__animated animate__fadeInUp" id="latest-sec" v-if="showSections">
       <div class="after-before"></div>
-      <h1 class="section-head">
-        {{ home_data.home.latest.title }}
-      </h1>
-      <div class="container">
+      <div class="switchs">
+        <button class="section-head" :class="showOnGoing ? 'active' : ''" @click="showOnGoing = true; showLatest = false; showTraining = false">
+          {{ home_data.home.on_going.title }}
+        </button>
+        <button class="section-head" :class="showLatest ? 'active' : ''" @click="showOnGoing = false; showLatest = true; showTraining = false">
+          {{ home_data.home.latest.title }}
+        </button>
+        <button class="section-head" :class="showTraining ? 'active' : ''" @click="showOnGoing = false; showLatest = false; showTraining = true">
+          {{ home_data.home.training_projects.title }}
+        </button>
+      </div>
+      <div class="container animate__animated animate__fadeIn" v-if="showLatest">
           <swiper 
             :slidesPerView="1" 
             :spaceBetween="40"
             :breakpoints="{
-              '550': {
+              '767': {
                 slidesPerView: 2,
                 spaceBetween: 30,
               },
-              '900': {
+              '992': {
                 slidesPerView: 3,
                 spaceBetween: 30,
               },
@@ -236,6 +203,27 @@
                 <a href="https://aspire-assessment.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
+          </swiper>
+      </div>
+      <div class="container animate__animated animate__fadeIn" v-if="showTraining">
+          <swiper 
+            :slidesPerView="1" 
+            :spaceBetween="40"
+            :breakpoints="{
+              '767': {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              '992': {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }"
+
+            :navigation="true" 
+            :pagination="{
+              clickable: true,
+            }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
                   <img src="../assets/img/our-work/dashboard.png" alt="">
@@ -283,44 +271,50 @@
               </swiper-slide>
           </swiper>
       </div>
-    </section>
+      <div class="container animate__animated animate__fadeIn" v-if="showOnGoing">
+          <swiper 
+            :slidesPerView="1" 
+            :spaceBetween="40"
+            :breakpoints="{
+              '767': {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              '992': {
+                slidesPerView: 3,
+                spaceBetween: 30,
+              },
+            }"
 
-    <div id="on-going"></div>
-    <section class="on-going">
-        <h1 class="section-head">
-          {{ home_data.home.on_going.title }}
-        </h1>
-        <div class="container">
-            <div>
-              <div class="img">
-                <img src="../assets/img/on_going/fentec_logo.png" alt="">
-              </div>
-              <div class="text">
-                <h1>Fentec</h1>
-                <p>{{ home_data.home.on_going.fentec.p_1 }}</p>
+            :navigation="true" 
+            :pagination="{
+              clickable: true,
+            }" :modules="modules" class="latest-slider">
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/dashboard.png" alt="">
+                </div>
+                <h1>{{"Fentec Mobility"}}</h1>
                 <p>{{ home_data.home.on_going.fentec.p_2 }}</p>
-                <img src="../assets/img/flags/dz.png" alt="">
-              </div>
-              <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
-            </div>
-            <div>
-              <div class="img">
-                <img src="../assets/img/on_going/gomhoria.png" alt="">
-              </div>
-              <div class="text">
-                <h1>Gmhorya</h1>
-                <p>{{ home_data.home.on_going.gmhorya.p_1 }}</p>
+                <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/dashboard.png" alt="">
+                </div>
+                <h1>{{"Elgomhuria"}}</h1>
                 <p>{{ home_data.home.on_going.gmhorya.p_2 }}</p>
-                <img src="../assets/img/flags/eg.png" alt="">
-              </div>
-              <h3>{{ home_data.home.on_going.comming }}</h3>
-            </div>
-        </div>
-      </section>
+                <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+          </swiper>
+      </div>
+    </section>
 
     <div id="why-us"></div>
 
-    <section class="why-us" id="why">
+    <section class="why-us  animate__animated animate__fadeInUp" id="why" v-if="showSections">
       <div class="after-before"></div>
       <h1 class="section-head">
         {{ home_data.home.why_us.title }}
@@ -387,36 +381,57 @@
 
     <div id="contact"></div>
 
-    <section class="lets-do-it" id="deal">
+    <section class="lets-do-it  animate__animated animate__fadeInUp" id="deal" v-if="showSections">
       <div class="after-before"></div>
       <div class="container">
         <h1 class="section-head">{{ home_data.home.lets_do_it.title }}</h1>
         <h3>{{ home_data.home.lets_do_it.sub_title }}</h3>
         <img src="../assets/img/lets-do.png" alt="lets-do-it">
         <div class="btns">
+          <a href="https://www.facebook.com/YKdev.online" target="_blank">
+            <img src="../assets/img/contact/Facebook.png" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/ykdevonline" target="_blank">
+            <img src="../assets/img/contact/LinkedIn.png" />
+          </a>
+
+          <a href="https://t.me/+201149421104" target="_blank">
+            <img src="../assets/img/contact/Telegram.png" />
+          </a>
+
+          <a href="https://www.facebook.com/messages/t/114476311514915" target="_blank">
+            <img src="../assets/img/contact/Messenger.png" />
+          </a>
+
           <a 
           :href="
           lang == 'en' ? 
-          'https://api.whatsapp.com/send?phone=201211732480&text=Hi%20YK%2C%20%F0%9F%91%8B%20i%20want%20to%20create%20my%20own%20website%20%F0%9F%A4%A9' :
-          'https://api.whatsapp.com/send?phone=201211732480&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%F0%9F%91%8B%2C%20%D8%A7%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A1%20%D9%85%D9%88%D9%82%D8%B9%D9%8A%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%20%F0%9F%A4%A9'"
-          target="_blank">
-            <i class='bx bxl-whatsapp'></i>
+          'https://wa.link/vkmpvi' :
+          'https://wa.link/f5ymtr'"
+
+           target="_blank">
+            <img src="../assets/img/contact/Whatsapp.png" />
           </a>
-          <a href="https://www.facebook.com/messages/t/114476311514915" target="_blank">
-            <i class='bx bxl-messenger'></i>
+
+          <a href="https://www.instagram.com/ykdev.online" target="_blank">
+            <img src="../assets/img/contact/Instagram.png" />
           </a>
-          <a href="https://t.me/Youssef_Fouad_22" target="_blank"><i class='bx bxl-telegram'></i></a>
+
+          <a href="https://www.tiktok.com/@ykdev.online" target="_blank">
+            <img src="../assets/img/contact/Tiktok.png" />
+          </a>
         </div>
       </div>
     </section>
 
-    <footer id='footer'>
+    <footer id='footer  animate__animated animate__fadeInUp'>
       <div class="after-before"></div>
       <h1 class="section-head">
         YK
       </h1>
       <div class="container">
-        <div class="yk">
+        <div class="yk ">
           <div class="joo">
             <div class="text">
               <h1>{{ home_data.home.footer.youssef_name }}</h1>
@@ -453,10 +468,11 @@
           <img src="../assets/img/dribbble.png" alt="here its">
           <ul>
             <a href="https://www.facebook.com/YKwebsitebuilders/" target="_blank"><li><i class='bx bxl-facebook'></i></li></a>
-            <a :href="
-            lang == 'en' ? 
-            'https://api.whatsapp.com/send?phone=201211732480&text=Hi%20YK%2C%20%F0%9F%91%8B%20i%20want%20to%20create%20my%20own%20website%20%F0%9F%A4%A9' :
-            'https://api.whatsapp.com/send?phone=201211732480&text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%20%F0%9F%91%8B%2C%20%D8%A7%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%86%D8%B4%D8%A7%D8%A1%20%D9%85%D9%88%D9%82%D8%B9%D9%8A%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%20%F0%9F%A4%A9'"
+            <a 
+            :href="
+              lang == 'en' ? 
+            'https://wa.link/vkmpvi' :
+            'https://wa.link/f5ymtr'"
               target="_blank">
               <li><i class='bx bxl-whatsapp'></i></li>
             </a>
@@ -501,12 +517,16 @@ export default {
   data() {
     return {
       color: 'dark',
+      showTraining: false,
+      showLatest: true,
+      showOnGoing: false,
       searchParams: new URLSearchParams(window.location.search),
       lang: 'en',
       home_data: null,
       iconDir: 92,
       langIconDir: 90,
       is_cookies: false,
+      showSections: false
     }
   },
   methods: {
@@ -632,6 +652,10 @@ export default {
     if (sessionStorage.getItem('cookiesSelect'))
       this.is_cookies = 1
 
+      setTimeout(() => {
+        
+        this.showSections = true
+      }, 300);
       // // start enter animation
       //   $(window).on('load', function () {
       //   setTimeout(() => {
