@@ -8,8 +8,8 @@
             <ul>
                 <li class="active hero-link"><a href="#hero"><img src="../assets/img/nav/1.png" alt=""></a></li>
                 <li class="latest-sec-link"><a href="#latest"><img src="../assets/img/nav/3.png" alt=""></a></li>
-                <li class="why-link"><a href="#why-us"><img src="../assets/img/nav/4.png" alt=""></a></li>
                 <li class="deal-link"><a href="#contact"><img src="../assets/img/nav/5.png" alt=""></a></li>
+                <li class="why-link"><a href="#why-us"><img src="../assets/img/nav/4.png" alt=""></a></li>
                 <li class="footer-link" style="display: none;"><img src="../assets/img/nav/5.png" alt=""></li>
             </ul>
         </nav>

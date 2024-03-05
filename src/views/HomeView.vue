@@ -87,7 +87,7 @@
           </div>
         </div>
         <div class="img">
-          <img src="../assets/img/hero_new.png" alt="">
+          <img src="../assets/img/hero-2.png" alt="">
         </div>
       </div>
     </section>
@@ -169,11 +169,20 @@
             }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
+                  <img src="../assets/img/companies/g-g.png" alt="">
+                </div>
+                <h1>{{"Elgomhuria"}}</h1>
+                <p>{{ home_data.home.on_going.gmhorya.p_2 }}</p>
+                <a href="https://elgomhuriaeljadida.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
                   <img src="../assets/img/our-work/onmyway.png" alt="">
                 </div>
                 <h1>On My Way</h1>
                 <p>{{ home_data.home.latest.onmyway }}</p>
-                <a href="https://onmywaytherapy.com.au/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <a href="https://onmywaytherapy.ykdev.online/" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
@@ -191,7 +200,7 @@
                 </div>
                 <h1>ForknKnife</h1>
                 <p>{{ home_data.home.latest.forknknife }}</p>
-                <a href="https://forkn-knife.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <a href="https://forknknife.ykdev.online/" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
@@ -200,7 +209,7 @@
                 </div>
                 <h1>Aspire</h1>
                 <p>{{ home_data.home.latest.aspire }}</p>
-                <a href="https://aspire-assessment.vercel.app/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <a href="https://aspire.ykdev.online/" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
           </swiper>
@@ -292,7 +301,7 @@
             }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/dashboard.png" alt="">
+                  <img src="../assets/img/our-work/fen.png" alt="">
                 </div>
                 <h1>{{"Fentec Mobility"}}</h1>
                 <p>{{ home_data.home.on_going.fentec.p_2 }}</p>
@@ -301,16 +310,63 @@
               </swiper-slide>
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/our-work/dashboard.png" alt="">
+                  <img src="../assets/img/our-work/sf.png" alt="">
                 </div>
-                <h1>{{"Elgomhuria"}}</h1>
-                <p>{{ home_data.home.on_going.gmhorya.p_2 }}</p>
-                <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <h1>{{"Sphinx Travel"}}</h1>
+                <p>{{ home_data.home.on_going.shpinx.p_2 }}</p>
+                <a href="/fentec-preview" @click.prevent class="cumming-soon-link" target="_blanck">{{ home_data.home.on_going.comming }}</a>
                 <div class="bg"></div>
               </swiper-slide>
           </swiper>
       </div>
     </section>
+
+    <div id="contact"></div>
+
+    <section class="lets-do-it  animate__animated animate__fadeInUp" id="deal" v-if="showSections">
+      <div class="after-before"></div>
+      <div class="container">
+        <h1 class="section-head">{{ home_data.home.lets_do_it.title }}</h1>
+        <h3>{{ home_data.home.lets_do_it.sub_title }}</h3>
+        <img src="../assets/img/Saly-19.png" alt="lets-do-it">
+        <div class="btns">
+          <a href="https://www.facebook.com/YKdev.online" target="_blank">
+            <img src="../assets/img/contact/Facebook.png" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/ykdevonline" target="_blank">
+            <img src="../assets/img/contact/LinkedIn.png" />
+          </a>
+
+          <a href="https://t.me/+201149421104" target="_blank">
+            <img src="../assets/img/contact/Telegram.png" />
+          </a>
+
+          <a href="https://www.facebook.com/messages/t/114476311514915" target="_blank">
+            <img src="../assets/img/contact/Messenger.png" />
+          </a>
+
+          <a 
+          :href="
+          lang == 'en' ? 
+          'https://wa.link/vkmpvi' :
+          'https://wa.link/f5ymtr'"
+
+          target="_blank">
+            <img src="../assets/img/contact/Whatsapp.png" />
+          </a>
+
+          <a href="https://www.instagram.com/ykdev.online" target="_blank">
+            <img src="../assets/img/contact/Instagram.png" />
+          </a>
+
+          <a href="https://www.tiktok.com/@ykdev.online" target="_blank">
+            <img src="../assets/img/contact/Tiktok.png" />
+          </a>
+        </div>
+      </div>
+    </section>
+
 
     <div id="why-us"></div>
 
@@ -379,52 +435,6 @@
       </div>
     </section>
 
-    <div id="contact"></div>
-
-    <section class="lets-do-it  animate__animated animate__fadeInUp" id="deal" v-if="showSections">
-      <div class="after-before"></div>
-      <div class="container">
-        <h1 class="section-head">{{ home_data.home.lets_do_it.title }}</h1>
-        <h3>{{ home_data.home.lets_do_it.sub_title }}</h3>
-        <img src="../assets/img/lets-do.png" alt="lets-do-it">
-        <div class="btns">
-          <a href="https://www.facebook.com/YKdev.online" target="_blank">
-            <img src="../assets/img/contact/Facebook.png" />
-          </a>
-
-          <a href="https://www.linkedin.com/in/ykdevonline" target="_blank">
-            <img src="../assets/img/contact/LinkedIn.png" />
-          </a>
-
-          <a href="https://t.me/+201149421104" target="_blank">
-            <img src="../assets/img/contact/Telegram.png" />
-          </a>
-
-          <a href="https://www.facebook.com/messages/t/114476311514915" target="_blank">
-            <img src="../assets/img/contact/Messenger.png" />
-          </a>
-
-          <a 
-          :href="
-          lang == 'en' ? 
-          'https://wa.link/vkmpvi' :
-          'https://wa.link/f5ymtr'"
-
-           target="_blank">
-            <img src="../assets/img/contact/Whatsapp.png" />
-          </a>
-
-          <a href="https://www.instagram.com/ykdev.online" target="_blank">
-            <img src="../assets/img/contact/Instagram.png" />
-          </a>
-
-          <a href="https://www.tiktok.com/@ykdev.online" target="_blank">
-            <img src="../assets/img/contact/Tiktok.png" />
-          </a>
-        </div>
-      </div>
-    </section>
-
     <footer id='footer  animate__animated animate__fadeInUp'>
       <div class="after-before"></div>
       <h1 class="section-head">
@@ -440,7 +450,7 @@
             <div class="vector">
               <img src="../assets/img/y.png" alt="designer">
               <div class="profile">
-                <img src="../assets/img/youssef.jpeg" alt="youssef">
+                <img src="../assets/img/joo.jpg" alt="youssef">
               </div>
             </div>
           </div>
@@ -462,22 +472,6 @@
           {{ home_data.home.footer.sub_title }}
           <img src="../assets/img/footer.png" alt="">
         </h3>
-      </div>
-      <div class="links">
-        <div class="img">
-          <img src="../assets/img/dribbble.png" alt="here its">
-          <ul>
-            <a href="https://www.facebook.com/YKwebsitebuilders/" target="_blank"><li><i class='bx bxl-facebook'></i></li></a>
-            <a 
-            :href="
-              lang == 'en' ? 
-            'https://wa.link/vkmpvi' :
-            'https://wa.link/f5ymtr'"
-              target="_blank">
-              <li><i class='bx bxl-whatsapp'></i></li>
-            </a>
-          </ul>
-        </div>
       </div>
     </footer>
   </div>
