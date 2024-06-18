@@ -144,6 +144,9 @@
                     "p_1": "موقع اخباري",
                     "p_2": "موقع اخباري"
                 },
+                "unieted_podcast": {
+                    "p_1": "موقع بودكاست"
+                },
                 "shpinx": {
                     "p_1": "Spinx travel",
                     "p_2": "Tourist reservations"
@@ -209,6 +212,9 @@
             "on_going": {
                 "title": "on going projects",
                 "comming": "coming soon",
+                "unieted_podcast": {
+                    "p_1": "Podcast Website"
+                },
                 "gmhorya": {
                     "p_1": "News site",
                     "p_2": "News Site"

@@ -169,11 +169,38 @@
             }" :modules="modules" class="latest-slider">
               <swiper-slide>
                 <div class="img">
-                  <img src="../assets/img/companies/g-g.png" alt="">
+                  <img src="../assets/img/our-work/un.png" alt="">
+                </div>
+                <h1>{{"United Podcast"}}</h1>
+                <p>{{ home_data.home.on_going.unieted_podcast.p_1 }}</p>
+                <a href="https://umspodcast.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/GGG.png" alt="">
                 </div>
                 <h1>{{"Elgomhuria"}}</h1>
                 <p>{{ home_data.home.on_going.gmhorya.p_2 }}</p>
                 <a href="https://elgomhuriaeljadida.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/gaming.png" alt="">
+                </div>
+                <h1>Egs</h1>
+                <p>{{ home_data.home.latest.egs }}</p>
+                <a href="https://www.egyptgamestore.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
+                <div class="bg"></div>
+              </swiper-slide>
+              <swiper-slide>
+                <div class="img">
+                  <img src="../assets/img/our-work/sf.png" alt="">
+                </div>
+                <h1>{{"Sphinx Travel"}}</h1>
+                <p>{{ home_data.home.on_going.shpinx.p_2 }}</p>
+                <a href="https://play.google.com/store/apps/details?id=com.sphinx.travel" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
@@ -183,15 +210,6 @@
                 <h1>On My Way</h1>
                 <p>{{ home_data.home.latest.onmyway }}</p>
                 <a href="https://onmywaytherapy.ykdev.online/" target="_blanck">{{ home_data.home.latest.btn }}</a>
-                <div class="bg"></div>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="img">
-                  <img src="../assets/img/our-work/egs.png" alt="">
-                </div>
-                <h1>Egs</h1>
-                <p>{{ home_data.home.latest.egs }}</p>
-                <a href="https://www.egyptgamestore.com/" target="_blanck">{{ home_data.home.latest.btn }}</a>
                 <div class="bg"></div>
               </swiper-slide>
               <swiper-slide>
@@ -306,15 +324,6 @@
                 <h1>{{"Fentec Mobility"}}</h1>
                 <p>{{ home_data.home.on_going.fentec.p_2 }}</p>
                 <a href="/fentec-preview" target="_blanck">{{ home_data.home.latest.btn }}</a>
-                <div class="bg"></div>
-              </swiper-slide>
-              <swiper-slide>
-                <div class="img">
-                  <img src="../assets/img/our-work/sf.png" alt="">
-                </div>
-                <h1>{{"Sphinx Travel"}}</h1>
-                <p>{{ home_data.home.on_going.shpinx.p_2 }}</p>
-                <a href="/fentec-preview" @click.prevent class="cumming-soon-link" target="_blanck">{{ home_data.home.on_going.comming }}</a>
                 <div class="bg"></div>
               </swiper-slide>
           </swiper>

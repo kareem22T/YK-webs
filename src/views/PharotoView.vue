@@ -1,27 +1,38 @@
 <template>
     <div class="site-details">
-        <nav class="top-nav">
-            <div class="container">
-                <ul>
-                    <li>
-                        <a id="changlang" @click="changeLang(); getHomeData(); setLangIconDir();">
-                            <span class="lang-ch" :style='{ transform: "translateX(" + langIconDir + "%) translateY(-50%)" }'>{{
-                            lang == 'en' ? lang : 'ع' }}</span>
-                        </a>
-                    </li>
-                    <li><a href="/"><img src="../assets/img/logo.svg"></a></li>
-        
-                    <li>
-                        <a href="" @click.prevent="changeTheme(); setIconDir()">
-                            <span :style='{ transform: "translateX(calc(" + iconDir + "% - 1px)) translateY(-50%)" }'>
-                                <i class='bx' :class='color == "dark" ? "bxs-moon" : "bxs-sun"'></i>
-                            </span>
-                        </a>
-                    </li>
-        
-                </ul>
-            </div>
-        </nav>
+    <nav class="top-nav">
+      <div class="container">
+        <ul>
+          <li>
+            <label class="ui-switch lang" @click.prevent="changeLang(); getHomeData(); setLangIconDir()">
+              <input type="checkbox" :checked="lang == 'en'">
+              <div class="slider">
+                <div class="circle">
+                  {{ lang == "en" ? "EN" : "ع" }}
+                </div>
+              </div>
+            </label>
+          </li>
+          <li><a href="#home"><img src="../assets/img/logo.svg"></a></li>
+
+          <li>
+            <!-- <a href="" @click.prevent="changeTheme(); setIconDir()">
+              <span :style='{ transform: "translateX(calc(" + iconDir + "% - 1px)) translateY(-50%)" }'>
+                <i class='bx' :class='color == "dark" ? "bxs-moon" : "bxs-sun"'></i>
+              </span>
+            </a> -->
+            <label class="ui-switch" @click.prevent="changeTheme(); setIconDir()">
+              <input type="checkbox" :checked="color == 'light'">
+              <div class="slider">
+                <div class="circle"></div>
+              </div>
+            </label>
+
+          </li>
+
+        </ul>
+      </div>
+    </nav>
 
         <div class="container">
             <div class="head">
